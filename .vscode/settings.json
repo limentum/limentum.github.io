@@ -1,0 +1,7 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "editor.wordWrap": "on",
+    "editor.autoIndent": "full",
+    "html.validate.styles": true,
+    "html.validate.scripts": true,
+}
