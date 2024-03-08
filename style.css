@@ -42,8 +42,8 @@ hr {
 }
     #siteHeader nav ul {
         font-size: 0rem;
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
+        padding: 0.25rem;
+        margin-right: 1.5rem;
         list-style-type: none;
     }
         #siteHeader nav ul li {
@@ -68,6 +68,9 @@ hr {
         #siteHeader h1 {
             font-size: 1.5rem;
         }
+        #siteHeader nav ul {
+            margin-right: 1rem;
+        }
         #siteHeader nav ul li a {
             font-size: 1rem;
         }
@@ -75,6 +78,9 @@ hr {
     @media (max-width: 400px) {
         #siteHeader h1 {
             font-size: 1rem;
+        }
+        #siteHeader nav ul {
+            margin-right: 0.5rem;
         }
         #siteHeader nav ul li a {
             font-size: 0.8rem;
@@ -87,6 +93,26 @@ hr {
         #siteHeader {
             flex-direction: column;
         }
+        #siteHeader nav ul {
+            margin-right: 0.1rem;
+        }
+    }
+
+#siteFooter {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+}
+#siteFooter div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 0 2rem;
+}
+    #siteFooter div #footerNav li {
+        text-decoration: none;
+        list-style-type: none;
     }
 .skip-link {
     position: absolute;
