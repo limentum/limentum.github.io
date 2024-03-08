@@ -74,10 +74,16 @@ hr {
         #siteHeader nav ul li a {
             font-size: 1rem;
         }
+        h2 {
+            font-size: 1.17rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
     }
     @media (max-width: 400px) {
         #siteHeader h1 {
-            font-size: 1rem;
+            font-size: 1.17rem;
         }
         #siteHeader nav ul {
             margin-right: 0.5rem;
@@ -87,6 +93,12 @@ hr {
         }
         #siteHeader {
             padding-top: 0.25rem;
+        }
+        h2 {
+            font-size: 1rem;
+        }
+        h3 {
+            font-size: 0.83rem;
         }
     }
     @media (max-width: 300px) {
