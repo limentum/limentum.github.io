@@ -103,17 +103,24 @@ hr {
     position: sticky;
     bottom: 0;
 }
-#siteFooter div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    margin: 0 2rem;
-}
-    #siteFooter div #footerNav li {
-        text-decoration: none;
-        list-style-type: none;
+    #siteFooter div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin: 0 2rem;
     }
+        #siteFooter div #footerNav li {
+            list-style-type: none;
+        }
+            #siteFooter div #footerNav li a {
+                color: lightgoldenrodyellow;
+                text-decoration: none;
+            }
+            #siteFooter div #footerNav li a:hover {
+                color: black;
+                background-color: white;
+            }
 .skip-link {
     position: absolute;
     top: -40px;
