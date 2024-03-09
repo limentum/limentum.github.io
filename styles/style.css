@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', Helvetica, Calibri, Arial, sans-serif;
+    margin: 0;
+}
+.body {
+    padding: 2rem;
+    text-align: justify;
+}
+hr {
+    margin: 0;
+    border: 0;
+    border-top: 0.1rem solid #000;
+    border-color: white;
+}
+#siteInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    #siteInfo #logo {
+        margin: 0.5rem 0.5rem 0.5rem 2rem;
+        max-height: 10%;
+        width: auto;
+        border: 0.1rem;
+        border-style: solid;
+    }
+    #siteInfo h1 {
+        color: white;
+    }
+#siteHeader {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #siteHeader nav ul {
+        font-size: 0rem;
+        padding: 0.25rem;
+        margin-right: 1.5rem;
+        list-style-type: none;
+    }
+        #siteHeader nav ul li {
+            display: inline;
+            margin: 0;
+        }
+            #siteHeader nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.2rem;
+                padding: 0.5rem;
+            }
+            #siteHeader nav ul li a:hover {
+                background-color: white;
+                color: black;
+            }
+            #siteHeader nav ul li a:focus {
+                background-color: white;
+                color: black;
+            }
+#siteFooter {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+}
+    #siteFooter div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin: 0 2rem;
+    }
+        #siteFooter div #footerNav li {
+            list-style-type: none;
+        }
+            #siteFooter div #footerNav li a {
+                color: lightgoldenrodyellow;
+                text-decoration: none;
+            }
+            #siteFooter div #footerNav li a:hover {
+                color: black;
+                background-color: white;
+            }
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+    .skip-link:focus {
+        top: 0;
+    }
+#bandcampPlayer {
+    border: 0;
+    width: 700px;
+    height: 472px;
+    overflow: hidden;
+}
+    @media (max-width: 700px) {
+        #bandcampPlayer {
+            width: 325px;
+            height: 786px;
+        }
+    }
+@media (max-width: 600px) {
+    .body {
+        padding: 1.5rem;
+    }
+    #siteHeader h1 {
+        font-size: 1.5rem;
+    }
+    #siteHeader nav ul {
+        margin-right: 1rem;
+    }
+    #siteHeader nav ul li a {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.17rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    .body {
+        padding: 1rem;
+    }
+    #siteInfo #logo {
+        margin: 0.5rem;
+    }
+    #siteHeader h1 {
+        font-size: 1.17rem;
+    }
+    #siteHeader nav ul {
+        margin-right: 0.5rem;
+    }
+    #siteHeader nav ul li a {
+        font-size: 0.83rem;
+    }
+    #siteHeader {
+        padding-top: 0.25rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.83rem;
+    }
+    #siteFooter div nav {
+        display: none;
+    }
+    #siteFooter div small {
+        padding: 0.25rem;
+    }
+}
+@media (max-width: 300px) {
+    #siteHeader {
+        flex-direction: column;
+    }
+    #siteHeader nav ul {
+        margin-right: 0.1rem;
+    }
+}

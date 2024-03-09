@@ -8,20 +8,21 @@
         <meta name="keywords" content="Limentum, GitHub Pages, Owen Farmer, portfolio">
         <meta name="robots" content="index, follow">
         <title>Limentum</title>
-        <link href="styles/style.css" rel="stylesheet">
+        <link href="../styles/style.css" rel="stylesheet">
+        <link href="../styles/chapter.css" rel="stylesheet">
         <link rel=me value="limentum.com">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header id="siteHeader" aria-label="Site header">
-            <a href="#bodyHome" class="skip-link">Skip to main content</a>
+            <a href="#bodyVestige" class="skip-link">Skip to main content</a>
             <div id="siteInfo">
-                <img id="logo" alt="" src="images/logo.jpg" width="100" height="100">
+                <img id="logo" alt="" src="../images/logo.jpg" width="100" height="100">
                 <h1>Limentum</h1>
             </div>
             <nav id="headerNav" aria-label="Header navigation">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="/vestige/index.html">Vestige</a></li>
                     <li><a href="https://limentum.com">limentum.com</a></li>
                     <li><a href="https://linktr.ee/limentum">linktr.ee</a></li>
@@ -29,19 +30,27 @@
             </nav>
         </header>
         <hr>
-        <main class="body" id="bodyHome">
-            <h2>Welcome to my page!</h2>
-            <p>It's a bit lonely here for now. But I plan to consistently update it with cool new stuff I'm doing!</p>
-            <p>I post frequently enough on my main website if you want to be in the know about my latest works.</p>
-            <p>
-                Check out my latest single on Bandcamp<sup>*</sup>! From the full album "Vestige" coming soon.
-                <small><sup>*also available on your favourite streaming platform.</sup></small>
-            </p>
-            <aside>
-                <iframe id="bandcampPlayer" title="Audio Player for 'Nice While it Lasted by Limentum' from Bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=27578427/size=large/bgcol=333333/linkcol=4ec5ec/artwork=small/transparent=true/" seamless>
-                    <a href="https://limentum.bandcamp.com/album/vestige">Vestige by Limentum</a>
-                </iframe>
-            </aside>
+        <main class="body" id="bodyVestige">
+            <nav aria-label="breadcrumb" id="breadcrumb">
+                <ul class="breadcrumb">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html">Vestige</a></li>
+                </ul>
+            </nav>
+            <nav id="tableOfContents" aria-label="Vestige Table of contents">
+                <h2>Table of Contents</h2>
+                <h3>Chapters:</h3>
+                <ol>
+                    <li><a href="chapter/one.html">A Reflection of a Reflection</a></li>
+                    <li><a href="chapter/two.html">As If You Know The Story</a></li>
+                    <li><a href="chapter/three.html">Someone Else Will See It For Yourself</a></li>
+                    <ul>
+                        <li><a href="chapter/threepointfive.html">Interlude: The Party</a></li>
+                    </ul>
+                    <li><a href="chapter/four.html">A Moment With The Moon</a></li>
+                    <li><a href="chapter/five.html">The Last Time You Remember</a></li>
+                </ol>
+            </nav>
         </main>
         <footer id="siteFooter">
             <hr>

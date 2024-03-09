@@ -1,0 +1,101 @@
+/* for my quirky quips */
+#useless {
+    display: none;
+}
+/* for chapter articles, spaces the paragraph text and indents the first line */
+.body {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+    .body article {
+        margin: auto;
+    }
+    .body article p {
+        font-size: 1.125rem;
+        text-indent: 1rem;
+        line-height: 2rem;
+    }
+.body article figure p {
+    text-indent: 0;
+}
+.body article figure p:nth-child(even) {
+    text-indent: 2rem;
+}
+nav#chapterNav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+    nav#chapterNav ul li {
+        text-align: center;
+        margin: 1rem 0.5rem;
+    }
+        nav#chapterNav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+        }
+        nav#chapterNav ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+        nav#chapterNav ul li a:focus {
+            color: black;
+            background-color: white;
+        }
+/* centers content and gives it room to breathe */
+.center {
+    text-align: center;
+    border: 0.1rem;
+    border-style: double;
+    padding: 2rem;
+    margin: auto;
+    width: fit-content;
+}
+/* removes margin if screen is less than 700px */
+@media (max-width: 1400px) {
+    .body {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+@media (max-width: 1200px) {
+    .body {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+}
+@media (max-width: 1000px) {
+    .body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #222222;
+}
+    /* Display list items side by side */
+    ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    }
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+    }
+        /* Add a color to all links inside the list */
+        ul.breadcrumb li a {
+        color: lightskyblue;
+        text-decoration: none;
+        }
+        /* Add a color on mouse-over */
+        ul.breadcrumb li a:hover {
+        color: lightgray;
+        text-decoration: underline;
+        }

@@ -1,5 +1,6 @@
 {
     "livePreview.defaultPreviewPath": "/index.html",
+    "editor.trimAutoWhitespace": true,
     "editor.wordWrap": "on",
     "editor.autoIndent": "full",
     "html.validate.styles": true,
