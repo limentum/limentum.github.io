@@ -29,7 +29,6 @@ hr {
     }
     #siteInfo h1 {
         color: white;
-        display: inline-block;
     }
 #siteHeader {
     background-color: black;
@@ -64,55 +63,6 @@ hr {
                 background-color: white;
                 color: black;
             }
-    @media (max-width: 600px) {
-        #siteHeader h1 {
-            font-size: 1.5rem;
-        }
-        #siteHeader nav ul {
-            margin-right: 1rem;
-        }
-        #siteHeader nav ul li a {
-            font-size: 1rem;
-        }
-        h2 {
-            font-size: 1.17rem;
-        }
-        h3 {
-            font-size: 1rem;
-        }
-    }
-    @media (max-width: 400px) {
-        #siteInfo #logo {
-            margin: 0.5rem;
-        }
-        #siteHeader h1 {
-            font-size: 1.17rem;
-        }
-        #siteHeader nav ul {
-            margin-right: 0.5rem;
-        }
-        #siteHeader nav ul li a {
-            font-size: 0.8rem;
-        }
-        #siteHeader {
-            padding-top: 0.25rem;
-        }
-        h2 {
-            font-size: 1rem;
-        }
-        h3 {
-            font-size: 0.83rem;
-        }
-    }
-    @media (max-width: 300px) {
-        #siteHeader {
-            flex-direction: column;
-        }
-        #siteHeader nav ul {
-            margin-right: 0.1rem;
-        }
-    }
-
 #siteFooter {
     background-color: black;
     position: sticky;
@@ -149,3 +99,75 @@ hr {
     .skip-link:focus {
         top: 0;
     }
+#bandcampPlayer {
+    border: 0;
+    width: 700px;
+    height: 472px;
+    overflow: hidden;
+}
+    @media (max-width: 700px) {
+        #bandcampPlayer {
+            width: 325px;
+            height: 786px;
+        }
+    }
+@media (max-width: 600px) {
+    .body {
+        padding: 1.5rem;
+    }
+    #siteHeader h1 {
+        font-size: 1.5rem;
+    }
+    #siteHeader nav ul {
+        margin-right: 1rem;
+    }
+    #siteHeader nav ul li a {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.17rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    .body {
+        padding: 1rem;
+    }
+    #siteInfo #logo {
+        margin: 0.5rem;
+    }
+    #siteHeader h1 {
+        font-size: 1.17rem;
+    }
+    #siteHeader nav ul {
+        margin-right: 0.5rem;
+    }
+    #siteHeader nav ul li a {
+        font-size: 0.83rem;
+    }
+    #siteHeader {
+        padding-top: 0.25rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.83rem;
+    }
+    #siteFooter div nav {
+        display: none;
+    }
+    #siteFooter div small {
+        padding: 0.25rem;
+    }
+}
+@media (max-width: 300px) {
+    #siteHeader {
+        flex-direction: column;
+    }
+    #siteHeader nav ul {
+        margin-right: 0.1rem;
+    }
+}
