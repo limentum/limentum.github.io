@@ -76,6 +76,7 @@ hr {
         margin: 0 0 0 2rem;
     }
     #siteFooter div #footerNav ul {
+        display: inline-block;
         font-size: 0;
     }
         #siteFooter div #footerNav li {
