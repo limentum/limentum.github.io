@@ -75,6 +75,7 @@ hr {
         width: auto;
         margin: 0 0 0 2rem;
     }
+    /* footerNav */
     #siteFooter div #footerNav ul {
         display: inline-block;
         font-size: 0;
