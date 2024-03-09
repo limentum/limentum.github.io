@@ -73,16 +73,27 @@ hr {
         justify-content: space-between;
         align-items: center;
         width: auto;
-        margin: 0 2rem;
+        margin: 0 0 0 2rem;
+    }
+    #siteFooter div #footerNav ul {
+        font-size: 0;
     }
         #siteFooter div #footerNav li {
+            padding: 1rem 0;
+            display: inline-block;
             list-style-type: none;
         }
-            #siteFooter div #footerNav li a {
+            #footerNav li a {
+                padding: 1rem;
+                font-size: 1rem;
                 color: lightgoldenrodyellow;
                 text-decoration: none;
             }
             #siteFooter div #footerNav li a:hover {
+                color: black;
+                background-color: white;
+            }
+            #siteFooter div #footerNav li a:focus {
                 color: black;
                 background-color: white;
             }
@@ -130,8 +141,11 @@ hr {
     h3 {
         font-size: 1rem;
     }
+    #siteFooter div nav ul li a {
+        font-size: 0.83rem;
+    }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .body {
         padding: 1rem;
     }
@@ -156,8 +170,12 @@ hr {
     h3 {
         font-size: 0.83rem;
     }
-    #siteFooter div nav {
-        display: none;
+    #siteFooter div #footerNav li a {
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+    #siteFooter div {
+        margin: 0 0 0 1rem;
     }
     #siteFooter div small {
         padding: 0.25rem;
