@@ -50,6 +50,7 @@ hr {
         #siteHeader nav ul li {
             display: inline;
             margin: 0;
+            line-height: 2rem;
         }
             #siteHeader nav ul li a {
                 transition: color 0.25s ease, background-color 0.25s ease;
@@ -130,7 +131,7 @@ hr {
             height: 786px;
         }
     }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     #siteHeader h1 {
         font-size: 1.5rem;
     }
@@ -150,7 +151,7 @@ hr {
         font-size: 0.83rem;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     #siteInfo #logo {
         margin: 0.5rem;
     }
@@ -172,9 +173,9 @@ hr {
     h3 {
         font-size: 0.83rem;
     }
-    #siteFooter div #footerNav li a {
+    #siteFooter div #footerNav ul li a {
         padding: 0.5rem;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     #siteFooter div {
         margin: 0 0 0 1rem;
@@ -183,7 +184,10 @@ hr {
         padding: 0.25rem;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 450px) {
+    #siteInfo {
+        flex-direction: column;
+    }
     #siteHeader {
         flex-direction: column;
     }
