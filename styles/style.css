@@ -6,7 +6,9 @@ body {
     margin: 0;
 }
 .body {
-    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
     text-align: justify;
 }
 hr {
@@ -50,6 +52,7 @@ hr {
             margin: 0;
         }
             #siteHeader nav ul li a {
+                transition: color 0.25s ease, background-color 0.25s ease;
                 text-decoration: none;
                 color: white;
                 font-size: 1.2rem;
@@ -86,6 +89,7 @@ hr {
             list-style-type: none;
         }
             #footerNav li a {
+                transition: color 0.25s ease, background-color 0.25s ease;
                 padding: 1rem;
                 font-size: 1rem;
                 color: lightgoldenrodyellow;
@@ -113,10 +117,12 @@ hr {
         top: 0;
     }
 #bandcampPlayer {
+    display: block;
     border: 0;
     width: 700px;
     height: 472px;
     overflow: hidden;
+    margin: 1rem auto;
 }
     @media (max-width: 700px) {
         #bandcampPlayer {
@@ -125,9 +131,6 @@ hr {
         }
     }
 @media (max-width: 600px) {
-    .body {
-        padding: 1.5rem;
-    }
     #siteHeader h1 {
         font-size: 1.5rem;
     }
@@ -148,9 +151,6 @@ hr {
     }
 }
 @media (max-width: 450px) {
-    .body {
-        padding: 1rem;
-    }
     #siteInfo #logo {
         margin: 0.5rem;
     }
