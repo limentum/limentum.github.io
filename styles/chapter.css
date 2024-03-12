@@ -85,6 +85,9 @@ nav#chapterNav ul {
         width: 95%;
     }
 }
+#tableOfContents {
+    line-height: 1.5rem;
+}
 /* Style the list */
 ul.breadcrumb {
   padding: 0.6250em 1rem;
