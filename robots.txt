@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://projects.limentum.com/sitemap.xml
