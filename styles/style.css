@@ -17,6 +17,9 @@ hr {
     border-top: 0.1rem solid #000;
     border-color: white;
 }
+a {
+    text-underline-offset: 0.25rem;
+}
 #siteInfo {
     display: flex;
     align-items: center;

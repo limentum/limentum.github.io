@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+a:visited {
+    color: lightpink;
+}
 /* for my quirky quips */
 #useless {
     display: none;
