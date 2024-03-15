@@ -53,20 +53,30 @@ a {
         #siteHeader nav ul li {
             display: inline;
             margin: 0;
-            line-height: 2rem;
         }
-            #siteHeader nav ul li a {
+            #siteHeader nav ul li button#installButton {
+                line-height: 1.437rem;
+                background-color: transparent;
+                display: inline;
+            }
+            #siteHeader nav ul li a, #siteHeader nav ul li button {
+                vertical-align: middle;
+                box-sizing: content-box; /* Make sure both are content-box */
                 transition: color 0.25s ease, background-color 0.25s ease;
+                border: 1px;
+                border-style: solid;
+                border-color: white;
                 text-decoration: none;
                 color: white;
                 font-size: 1.2rem;
                 padding: 0.5rem;
+                line-height: 2rem;
             }
-            #siteHeader nav ul li a:hover {
+            #siteHeader nav ul li a:hover, #siteHeader nav ul li button#installButton:hover {
                 background-color: white;
                 color: black;
             }
-            #siteHeader nav ul li a:focus {
+            #siteHeader nav ul li a:focus, #siteHeader nav ul li button#installButton:focus {
                 background-color: white;
                 color: black;
             }
