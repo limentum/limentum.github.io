@@ -12,8 +12,7 @@ if ('serviceWorker' in navigator) {
 
 let deferredPrompt; // This variable is used to keep the event
 
-// Check if the app is already installed
-if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
+if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone || window.navigator.msLaunchUri) {
   const installButton = document.getElementById('installButton');
   if (installButton) {
     installButton.style.display = 'none';
