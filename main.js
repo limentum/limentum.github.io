@@ -21,23 +21,21 @@ if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.
 }
 
 // Check if the app is not already installed
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault(); // Prevent Chrome 76 and later from showing the mini-infobar
-  deferredPrompt = e; // Stash the event so it can be triggered later.
+window.addEventListener('beforeinstallprompt', (e) => { // Listen for the beforeinstallprompt event
+  // Detect if the browser is Chromium-based
+  const isChromium = window.chrome !== null && window.chrome !== undefined && window.navigator.userAgent.indexOf('Chromium') > -1;
 
-  const installButton = document.getElementById('installButton'); // Add install button to header navigation
-  if (installButton) {
-    const isMobile = /Mobi|Android/i.test(navigator.userAgent); // Detect if the device is on iOS or Android
-    const isFirefox = /firefox/i.test(navigator.userAgent); // Detect if the browser is Firefox
-    const isFirefoxAndroid = isFirefox && isMobile; // Detect if the browser is Firefox for Android
+  // Only run the rest of the code if the browser is Chromium-based
+  if (isChromium) {
+    e.preventDefault(); // Prevent Chrome 76 and later from showing the mini-infobar (or Edge/Opera/Brave/other Chromium-based browsers)
+    deferredPrompt = e; // Stash the event so it can be triggered later.
 
-    // Only show the install button if it's not Firefox, or if it's Firefox for Android
-    if (!isFirefox || isFirefoxAndroid) {
+    const installButton = document.getElementById('installButton'); // Add install button to header navigation
+    if (installButton) { // If the button is found, show it
+
       installButton.style.display = 'block';
       installButton.textContent = isMobile ? 'Add to Home Screen' : 'Install App';
       installButton.addEventListener('click', showInstallPrompt);
-    } else {
-      installButton.style.display = 'none';
     }
   }
 });
