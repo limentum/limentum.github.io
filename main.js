@@ -23,8 +23,8 @@ if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.
 window.addEventListener('beforeinstallprompt', (e) => { // Listen for the beforeinstallprompt event
   // Detect if the browser is Chromium-based
   const isChromium = window.chrome !== null && window.chrome !== undefined && window.navigator.userAgent.indexOf('Chromium') > -1;
-  const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
-
+  const isFirefox = window.navigator.userAgent.includes('Firefox');
+  
   // Only run the rest of the code if the browser is Chromium-based
   if (isChromium) {
     e.preventDefault(); // Prevent Chrome 76 and later from showing the mini-infobar (or Edge/Opera/Brave/other Chromium-based browsers)
