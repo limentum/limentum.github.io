@@ -3,36 +3,36 @@
 	<url>
 		<loc>https://www.projects.limentum.com</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-03-15</lastmod>
+		<lastmod>2024-03-09</lastmod>
 	</url>
 	<url>
 		<loc>https://www.projects.limentum.com/vestige</loc>
 		<priority>0.75</priority>
-		<lastmod>2024-03-08</lastmod>
+		<lastmod>2024-03-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.projects.limentum.com/vestige/chapter/two.html</loc>
+		<loc>https://www.projects.limentum.com/vestige/chapter/four.html</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-03-11</lastmod>
+		<lastmod>2024-03-15</lastmod>
 	</url>
 	<url>
-		<loc>https://www.projects.limentum.com/vestige/chapter/threepointfive.html</loc>
+		<loc>https://www.projects.limentum.com/vestige/chapter/one.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2024-03-14</lastmod>
 	</url>
 	<url>
 		<loc>https://www.projects.limentum.com/vestige/chapter/three.html</loc>
 		<priority>0.25</priority>
+		<lastmod>2024-03-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.projects.limentum.com/vestige/chapter/threepointfive.html</loc>
+		<priority>0.25</priority>
 		<lastmod>2024-03-12</lastmod>
 	</url>
 	<url>
-		<loc>https://www.projects.limentum.com/vestige/chapter/one.html</loc>
+		<loc>https://www.projects.limentum.com/vestige/chapter/two.html</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-03-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.projects.limentum.com/vestige/chapter/four.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2024-03-13</lastmod>
+		<lastmod>2024-03-11</lastmod>
 	</url>
 </urlset>
