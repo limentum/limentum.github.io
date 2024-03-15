@@ -23,6 +23,7 @@ if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.
 window.addEventListener('beforeinstallprompt', (e) => { // Listen for the beforeinstallprompt event
   // Detect if the browser is Chromium-based
   const isChromium = window.chrome !== null && window.chrome !== undefined && window.navigator.userAgent.indexOf('Chromium') > -1;
+  const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
 
   // Only run the rest of the code if the browser is Chromium-based
   if (isChromium) {
@@ -31,10 +32,14 @@ window.addEventListener('beforeinstallprompt', (e) => { // Listen for the before
 
     const installButton = document.getElementById('installButton'); // Add install button to header navigation
     if (installButton) { // If the button is found, show it
-
       installButton.style.display = 'block';
       installButton.textContent = isMobile ? 'Add to Home Screen' : 'Install App';
       installButton.addEventListener('click', showInstallPrompt);
+    }
+  } else if (isFirefox) {
+    const installButton = document.getElementById('installButton');
+    if (installButton) {
+      installButton.style.display = 'none';
     }
   }
 });
