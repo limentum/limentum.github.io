@@ -68,6 +68,7 @@ a {
                 line-height: 2rem;
             }
             #siteHeader nav ul li a:hover {
+                text-decoration: underline;
                 background-color: white;
                 color: black;
             }
