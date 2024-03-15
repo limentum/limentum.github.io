@@ -28,7 +28,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   const installButton = document.getElementById('installButton'); // Add install button to header navigation
   if (installButton) {
     const isMobile = /Mobi|Android/i.test(navigator.userAgent); // Detect if the device is on iOS or Android
-    const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1; // Detect if the browser is Firefox
+    const isFirefox = /firefox/i.test(navigator.userAgent); // Detect if the browser is Firefox
     const isFirefoxAndroid = isFirefox && isMobile; // Detect if the browser is Firefox for Android
 
     // Only show the install button if it's not Firefox, or if it's Firefox for Android
