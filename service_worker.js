@@ -10,8 +10,6 @@ var URLS = [
     '/vestige/chapter/one.html',
     '/vestige/chapter/two.html',
     '/vestige/chapter/three.html',
-    '/vestige/chapter/threepointfive.html',
-    '/vestige/chapter/four.html',
     '/images/logo.jpg'
     ]
 
