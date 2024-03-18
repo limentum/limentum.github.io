@@ -75,7 +75,7 @@ nav#chapterNav ul {
     border: 0.1rem;
     border-style: double;
     padding: 2rem;
-    margin: auto;
+    margin: 1rem auto;
     width: fit-content;
 }
 @media (max-width: 1200px) {
