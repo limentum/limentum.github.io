@@ -6,7 +6,7 @@ a:visited {
 #useless {
     display: none;
 }
-.body article p.altFont {
+.body article p span.altFont {
     font-family: "Reenie Beanie", cursive;
     font-weight: 400;
     font-style: normal;
