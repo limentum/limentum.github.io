@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+a:link {
+    color: lightskyblue;
+}
+a:hover {
+    color: lightgray;
+}
 a:visited {
     color: lightpink;
 }
@@ -110,7 +116,6 @@ ul.breadcrumb {
     }
         /* Add a color to all links inside the list */
         ul.breadcrumb li a {
-        color: lightskyblue;
         text-decoration: none;
         }
         /* Add a color on mouse-over */
