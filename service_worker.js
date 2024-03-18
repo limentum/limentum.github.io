@@ -1,12 +1,17 @@
 // Define the name of the current cache
 var APP_PREFIX = 'LmntnPrjcts_';
-var VERSION = 'v_01';
+var VERSION = 'v_02';
 var SITE_CACHE = APP_PREFIX + VERSION;
 var URLS = [
     '/index.html',
-    '/styles/style.css',
-    '/styles/chapter.css',
+    '/css/style.min.css',
+    '/css/chapter.min.css',
     '/vestige/index.html',
+    '/vestige/chapter/one.html',
+    '/vestige/chapter/two.html',
+    '/vestige/chapter/three.html',
+    '/vestige/chapter/threepointfive.html',
+    '/vestige/chapter/four.html',
     '/images/logo.jpg'
     ]
 
