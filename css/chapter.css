@@ -101,12 +101,11 @@ nav#chapterNav ul {
 ul.breadcrumb {
   padding: 0.6250em 1rem;
   list-style: none;
-  background-color: #222222;
+  background-color: var(--lightblack);
 }
     /* Display list items side by side */
     ul.breadcrumb li {
     display: inline;
-    font-size: 1.1250em;
     }
     /* Add a slash symbol (/) before/behind each list item */
     ul.breadcrumb li+li:before {
