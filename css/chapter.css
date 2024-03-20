@@ -96,7 +96,24 @@ nav#chapterNav ul {
 }
 #tableOfContents {
     line-height: 1.5rem;
+    font-size: 1rem;
 }
+#tableOfContents table {
+    margin: auto;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+    #tableOfContents table caption {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    #tableOfContents table th, #tableOfContents table td {
+        text-align: left;
+        border: 1px solid;
+        padding: 0.25rem;
+    }
 /* Style the list */
 ul.breadcrumb {
   padding: 0.6250em 1rem;
