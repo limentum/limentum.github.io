@@ -1,3 +1,4 @@
 .vscode/
 settings.json
 sitemap-generator.json
+.DS_Store
