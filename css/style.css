@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+:root {
+    --lightblack: #333;
+}
+
 body {
     background-color: black;
     color: white;
     font-family: 'Roboto', Helvetica, Calibri, Arial, sans-serif;
     margin: 0;
-}
+    font-size: min(max(0.65rem, 0.95vw), 5rem);}
 .body {
     margin-left: auto;
     margin-right: auto;
@@ -79,19 +84,8 @@ a {
             #siteHeader nav ul li a#currentPage {
                 border-color: orange;
             }
-
 #menu-toggle {
     display: none;
-}
-    #menu-toggle:checked ~ #headerNav {
-        left: 0;
-    }
-    #menu-toggle:checked ~ #headerNav ~ .hamburger-menu {
-        background-color: #333;
-    }
-    #menu-toggle:checked ~ #headerNav ~ .hamburger-menu .bar {
-        background-color: white;
-    
 }
 
 .hamburger-menu {
@@ -173,30 +167,32 @@ a {
         left: -100%;
         height: 100%;
         width: min-content;
-        background-color: #333;
+        background-color: var(--lightblack);
     }
+
+    #siteHeader #headerNav {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    #siteHeader #menu-toggle:checked ~ #headerNav {
+        opacity: 1;
+        left: 0;
+    }
+
+    #menu-toggle:checked ~ #headerNav ~ .hamburger-menu {
+        background-color: var(--lightblack);
+    }
+    #menu-toggle:checked ~ #headerNav ~ .hamburger-menu .bar {
+        background-color: white;
+    
+}
 
     #siteHeader nav#headerNav ul li, #siteHeader nav#headerNav ul li a {
         display: block;
     }
-
-    #siteHeader h1 {
-        font-size: 1.5rem;
-    }
     #siteHeader nav ul {
         margin-right: 0;
-    }
-    #siteHeader nav ul li a {
-        font-size: 1rem;
-    }
-    h2 {
-        font-size: 1.17rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
-    #siteFooter div nav ul li a {
-        font-size: 0.83rem;
     }
     #bandcampPlayer {
         width: 325px;
