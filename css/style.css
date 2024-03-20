@@ -157,6 +157,10 @@ a {
     overflow: hidden;
     margin: 1rem auto;
 }
+#homeLink {
+    text-decoration: none;
+    color: inherit;
+}
 
 @media (max-width: 768px) {
     .hamburger-menu {
@@ -205,5 +209,11 @@ a {
     #bandcampPlayer {
         width: 325px;
         height: 786px;
+    }
+}
+@media (min-width: 768px) {
+    #homeLink {
+        pointer-events: none;
+        cursor: default;
     }
 }
