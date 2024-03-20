@@ -4,7 +4,7 @@
 		<loc>https://projects.limentum.com</loc>
 		<priority>1.00</priority>
 		<changefreq>monthly</changefreq>
-		<lastmod>2024-03-13</lastmod>
+		<lastmod>2024-03-05</lastmod>
 	</url>
 	<url>
 		<loc>https://projects.limentum.com/vestige</loc>
@@ -16,30 +16,30 @@
 		<loc>https://projects.limentum.com/vestige/chapter/four.html</loc>
 		<priority>0.25</priority>
 		<changefreq>weekly</changefreq>
-		<lastmod>2024-03-11</lastmod>
+		<lastmod>2024-03-03</lastmod>
 	</url>
 	<url>
 		<loc>https://projects.limentum.com/vestige/chapter/one.html</loc>
 		<priority>0.25</priority>
 		<changefreq>weekly</changefreq>
-		<lastmod>2024-03-14</lastmod>
+		<lastmod>2024-03-06</lastmod>
 	</url>
 	<url>
 		<loc>https://projects.limentum.com/vestige/chapter/three.html</loc>
 		<priority>0.25</priority>
 		<changefreq>weekly</changefreq>
-		<lastmod>2024-03-05</lastmod>
+		<lastmod>2024-02-26</lastmod>
 	</url>
 	<url>
 		<loc>https://projects.limentum.com/vestige/chapter/threepointfive.html</loc>
 		<priority>0.25</priority>
 		<changefreq>weekly</changefreq>
-		<lastmod>2024-03-17</lastmod>
+		<lastmod>2024-03-09</lastmod>
 	</url>
 	<url>
 		<loc>https://projects.limentum.com/vestige/chapter/two.html</loc>
 		<priority>0.25</priority>
 		<changefreq>weekly</changefreq>
-		<lastmod>2024-03-07</lastmod>
+		<lastmod>2024-02-28</lastmod>
 	</url>
 </urlset>
