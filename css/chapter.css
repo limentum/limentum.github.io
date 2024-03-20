@@ -46,14 +46,18 @@ nav#chapterNav ul {
     padding: 0;
 }
 #previous {
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 #next {
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 #onlyNext {
     margin: 1rem auto;
+}
+nav#chapterNav ul li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
     nav#chapterNav ul li a {
         transition: color 0.25s ease, background-color 0.25s ease;
