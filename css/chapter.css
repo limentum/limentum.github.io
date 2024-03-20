@@ -74,7 +74,7 @@ nav#chapterNav ul {
     text-align: center;
     border: 0.1rem;
     border-style: double;
-    padding: 2rem;
+    padding: 1rem 2rem;
     margin: 1rem auto;
     width: fit-content;
 }
