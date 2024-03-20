@@ -41,19 +41,20 @@ a:visited {
 nav#chapterNav ul {
     margin: auto;
     display: flex;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
-    font-size: 0;
 }
-    #previous {
-        margin: 1rem 0 1rem auto;
-    }
-    #next {
-        margin: 1rem auto 1rem 0;
-    }
-    #onlyNext {
-        margin: 1rem auto;
-    }
+#previous {
+    margin: 1rem 0;
+}
+
+#next {
+    margin: 1rem 0;
+}
+#onlyNext {
+    margin: 1rem auto;
+}
     nav#chapterNav ul li a {
         transition: color 0.25s ease, background-color 0.25s ease;
         font-size: 1rem;
