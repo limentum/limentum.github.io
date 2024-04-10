@@ -3,6 +3,7 @@ layout: vestige
 title: Someone Else Will See It For Yourself
 chapter: 3
 date: 2017-03-12
+last_updated: 2024-04-10
 ---
 <small id="useless" aria-hidden="true">In my dreams I'm on a porch with you. I promise you I've been doing well in your name. And I won't try to speak with you again. Until I watch my last breath dissipate</small>
 <figure markdown="1" aria-label="Speak With The Dead by Foxing & WHY?">
