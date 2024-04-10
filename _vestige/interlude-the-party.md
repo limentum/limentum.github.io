@@ -6,7 +6,7 @@ date: 2012-04-13
 last_updated: 2024-04-10
 ---
 <small id="useless" aria-hidden="true">a reflection of a reflection of a reflection of a reflec</small>
-<figure markdown="1" aria-label="Pre-chapter verse">
+<figure markdown="1" aria-label="Plane Crash by Covey">
 As the night fills the sky,
 
 all my fears are dissipating.
@@ -69,29 +69,31 @@ Before I can say anything, I'm met with the dial tone, signalling that she had h
 
 It's a message from Tyler.
 
-He's definitely the newest member of our little group, if you can even call it that. I'm the only person in the group that he's actually friends with so far, despite my efforts to bring him along on any plans we all make. I only met the guy recently, near the beginning of the this semester in photography class. Nobody I knew signed up for the course, and due to our prestigious high school's advanced budget for technology, we were forced to be paired up for shared computer use in the Photography Room. I suppose Tyler was also fortunate enough to not know anybody in the class, as we ended up being paired together by the teacher. He was definitely someone I could only describe as uninterested, as the first week or two I spent with him in that class consisted of him either giving me one word answers or answering in the most blunt, bored tone he could manage. Though, it seemed that it took a bit of persistence on my part to push him to be more open, and since then he's grown to be a pretty great friend.
+He's definitely the newest member of our little group, if you can even call it a group. I'm the only one he's actually friends with so far, despite my efforts to bring him along on group plans. I only met the guy recently, near the beginning of the this semester in photography class. Nobody I knew signed up for the course, so I was left to my own devices, and ended up sitting near him at the computer lab.
 
-Tyler: u goin to that party ive been hearing about?
+At first, he was someone I could only describe as uninterested. The 'assignments' were solo, but involved field trips to nearby parks and such, so we ended up talking a bit. The conversation wasn't too lively, but it was enough to keep me from going insane from the silence. I guess he was just shy, because after a few weeks, he started to open up a bit more. He's a pretty cool guy, I guess. He didn't talk about himself much, but he was always at least semi-interested in what I had to say. Not that I can complain, having the social skills of a rock, or *maybe* a tree.
+
+**Tyler**: *u goin to that party ive been hearing about?*
 
 Party? I wasn't made aware of anything like that, at least... not yet. Something in the back of my brain was telling me that Shae had ulterior motives about coming to my place so suddenly, but I'm still hoping that I'm wrong. I hate parties.
 
-Jake: party? havent heard anything, are u going?
+**Jake**: *party? havent heard anything, are u going?*
 
-Tyler: thinkin about it
+**Tyler**: *thinkin about it*
 
 think its gonna be over at chris's place, guess his parents r gone for the weekend or somethin
 
-Jake: chrisssss? ughh that guy is such an asshole
+**Jake**: *chrisssss? ughh that guy is such an asshole*
 
-Tyler: yeah
+**Tyler**: *yeah*
 
-u dont havee to go, but itd prob be more fun to have someone u actually know there
+**Tyler**: *u dont havee to go, but its prob more fun to have someone u actually know there*
 
 The way he worded that was directed at me, but I could tell he didn't want to go on his own.
 
-Jake: i guess ill think about it
+**Jake**: *i guess ill think about it*
 
-Tyler: sickk, call me if u make up ur mind
+**Tyler**: *sickk, lemme know if u decide to go*
 
 Before I can type my farewells over IM, Shaela energetically bursts through the door, causing me to jump in my seat. She's wearing a bright yellow hoodie and a pair of jeans, her hair tied up in a ponytail. She's carrying a small bag with her, and she's grinning from ear to ear.
 
@@ -101,7 +103,7 @@ Before I can type my farewells over IM, Shaela energetically bursts through the 
 
 "What happened?"
 
-"Ugh, Claire decided to just not show up, I guess, on the day we're supposed to present that stupid History project? And, obviously, she didn't give me her part of the project or anything, so I had tell Mr Thomas about the situation, which was fucking embarassing," she paused for a moment, taking a deep breath. "Luckily, he said he wouldn't reduce my grade for handing it in late, since I actually had my part finished. God, what a bitch- I must've called her like thirty times before class to get her to email me her part, and everytime it went straight to voicemail - and she told me last night that she'd have it ready for today!"
+"Ugh, Claire decided to just not show up, I guess, on the day we're supposed to present that stupid history project? And, obviously she didn't give me her part of the project, or anything. So, I had tell Mr Thomas about the situation, which was fucking embarassing," she paused for a moment, taking a deep breath. "Thankfully, he said he wouldn't reduce my grade for handing it in late since I actually had my part finished, and was on her ass with calls and texts about the project for days! God, what a bitch- I must've called her like thirty times before class to get her to email me her part, and everytime it went straight to voicemail - and she told me last night that she'd have it ready for today!"
 
 "Have you gotten a hold of her yet?" I asked, closing my laptop and setting it beside me.
 
