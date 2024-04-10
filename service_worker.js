@@ -13,18 +13,17 @@ var URLS = [
   '/assets/js/script.js',
 ];
 
-fetch('/vestige.json')
-.then(response => response.json())
-.then(data => {
-  URLS = URLS.concat(data);
-});
-
 // The install event
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open(SITE_CACHE)
-      .then(function(cache) {
-        return cache.addAll(URLS);
+    fetch('/vestige.json')
+      .then(response => response.json())
+      .then(data => {
+        URLS = URLS.concat(data);
+        return caches.open(SITE_CACHE)
+          .then(function(cache) {
+            return cache.addAll(URLS);
+          });
       })
   );
 });
