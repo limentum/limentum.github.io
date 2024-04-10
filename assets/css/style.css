@@ -65,7 +65,7 @@ main {
 }
 nav#social {
     border: 1px solid white;
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 0 1rem;
 }
     nav#social ul {
