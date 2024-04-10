@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   A collection of projects by Limentum.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://projects.limentum.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fearslipstreams
 github_username:  limentum
 threads_username: limentum
 logo: /_themes/theme/assets/images/logo512.png
@@ -40,6 +39,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
+jekyll-feed:
+  posts:
+    limit: 10
+  collections:
+    vestige:
+      output: true
+      limit: 10
+  rss_path: rss.xml
+  atom_path: feed.xml
+  json_path: feed.json
+
 jekyll-minifier:
   remove_spaces_inside_tags: true   # Remove spaces inside HTML tags
   js_minify: true                   # Minify JavaScript
@@ -47,23 +57,16 @@ jekyll-minifier:
   tidy_html: true                   # Tidy (prettify) HTML
   remove_multi_spaces: true         # Remove multiple consecutive spaces
   remove_comments: true             # Remove HTML comments
+  remove_intertag_spaces: true      # Remove inter-tag spaces
+  remove_quotes: true               # Remove quotes from tag attributes
+  remove_script_attributes: true    # Remove type="text/javascript" from script tags
+  remove_style_attributes: true     # Remove type="text/css" from style tags
+  remove_link_attributes: true      # Remove type="text/css" from link tags
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+jekyll-seo-tag:
+  robots: "noindex, nofollow"
+  title_separator: "-"
+  title: "Limentum Projects"
+  description: "A collection of projects by Limentum."
+  image: "/assets/images/logo512.png"
+  canonical_url: "https://projects.limentum.com"
