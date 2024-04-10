@@ -18,7 +18,7 @@ Check out my latest single on Bandcamp<sup>*</sup>! From the full album "Vestige
 </aside>
 
 <nav aria-label="Social navigation" id="social">
-    <h2>Follow me on:</h2>
+    <h2>Find me on:</h2>
     <ul>
         <li><a href="https://linktr.ee/{{ site.linktree_username }}" title="Linktree">linktr.ee</a></li>
         <li><a href="https://instagram.com/{{ site.instagram_username }}" title="Instagram">Instagram</a></li>
