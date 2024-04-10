@@ -28,7 +28,7 @@ I'm away on holiday,
 Just on a trip to get away.
 </figure>
 <hr>
-<div class=center>
+<div class="center">
     <p>{{ page.date | date: "%B %d, %Y" }}</p>
 </div>
 I was sitting on my bed, back against the bedframe with my knees raised in front of me, holding up my laptop. I had been spending the last few hours writing an essay for my English class, specifically answering the topic question my teacher had given everybody: "How do our past experiences influence our decisions?" The question was simple enough, it's a universally recognized idea that stuff happens to us and influences our decision making. I mean, that's what it means to grow, right? You gain more knowledge as you live through life and form new memories, and that helps you make more informed decisions in the future.
@@ -39,7 +39,7 @@ I've never really been too good at writing anything analytical. Papers that requ
 
 Looking at the time in the corner of my laptop screen, it was 4:43 PM. I started writing as soon as I got home from class, so I've only been going for about an hour. Unfortunately, this essay is a non-insignificant amount of my course grade, so I needed to finish this as soon as possible.
 
-God, it's a Friday! I could be out doing something actually fun with Shae and the other guys. Isn't that the whole point of high school? That's what it always seemed like in movies, at least, but I guess I've been a victim of false advertising.
+God, it's a Friday! I could be out doing something actually fun with Shae and the other guys. Isn't that the whole point of high school? That's how it looks in movies, at least, but I guess I've been a victim of false advertising.
 
 After a bit more time passes, the sound of my phone ringing from my desk brings me out of my writing trance. I sigh, setting my laptop next to me on the bed, not wanting to get out of bed, but eventually forcing myself into maneuvering over to the desk, I grab the phone and flip it open, looking to see the Caller ID.
 
@@ -61,7 +61,7 @@ I take a deep breath before speaking, "...Why?" I said with exasperated sarcasm.
 
 She's not wrong.
 
-"Wow, you make this sound like you're sneaking into a high-security building or something." I say, utterly confused at her motives. "Obviously you can come over, but I'm not exactly filled with confidence at whatever you're planning."
+"Wow, you make this sound as though you're sneaking into a high-security building or something." I say, utterly confused at her motives. "Obviously you can come over, but I'm not exactly filled with confidence at whatever you're planning."
 
 "Like I said, I can't tell you yet, but it's gonna be awesome!" she said. There was an unusual perkiness to her that made itself pretty clear over the phone.
 
@@ -103,13 +103,13 @@ Before I can type my farewells over IM, Shaela energetically bursts through the 
 
 "What happened?"
 
-"Ugh, Claire decided to just not show up, I guess, on the day we're supposed to present that stupid history project? And, obviously she didn't give me her part of the project, or anything. So, I had tell Mr Thomas about the situation, which was fucking embarassing," she paused for a moment, taking a deep breath. "Thankfully, he said he wouldn't reduce my grade for handing it in late since I actually had my part finished, and was on her ass with calls and texts about the project for days! God, what a bitch- I must've called her like thirty times before class to get her to email me her part, and everytime it went straight to voicemail - and she told me last night that she'd have it ready for today!"
+"Ugh, Claire decided to just not show up, I guess, on the day we're supposed to present that stupid history project? And, obviously she didn't give me her part of the project, or anything. So, I had tell Mr Thomas about the situation, which was fucking embarassing," she paused for a moment, taking a deep breath. "Thankfully, he said he wouldn't reduce my grade for handing it in late since I actually had my part finished, and was on her ass with calls and texts about the project for days! God, what a bitch- I must've called her thirty times before class to get her to email me her part, and everytime it went straight to voicemail - and she told me last night that she'd have it ready for today!"
 
 "Have you gotten a hold of her yet?" I asked, closing my laptop and setting it beside me.
 
 Shae turns her head to me, shaking her head, "Nope, she's been ghosting me all day."
 
-"Sounds like typical Claire."
+"Typical Claire."
 
 "Yeah, I shouldn't have partnered with her, but apparently I can't say no to people, so..." she claims. I chuckle lightly in response. "Anyways! I didn't just come here to complain to you!" she says, sitting up on the bed, now facing towards me.
 
@@ -163,13 +163,17 @@ I laughed, "Okay, we'll call you when we get there?"
 
 "Sure thing!"
 
-We exchanged our farewells and hung up. The party wasn't for at least another hour or two, so Shae and I had some time to burn, of which I was entirely out of ideas. I figured I could at least spend this time being productive, so I grabbed my laptop and continued writing my English essay as Shae resumed her previous conversation topic of stuff at school that was making her angry. It was entertaining, to be fair. She was telling me about how Chris had gotten in a fight with this other kid in our grade yesterday after class, which I wasn't lucky enough to witness, but it was obviously all anyone would talk about for basically the entire day today, so word spread around fast. The part I hadn't heard about was that both Chris and the other guy, Nathan, got suspended for a week because of it. Chris was generally an asshole to everybody, including myself, so I didn't feel too bad about that. Although, I didn't know Nathan all that well. Other than having a few classes together, I don't think I've ever held an actual conversation with the guy. I think it was safe to assume that Chris was the one who started it, and Shae seemed to agree with me, even though she hadn't seen the fight either.
+We exchanged our farewells and hung up. The party wasn't for at least another hour or two, so Shae and I had some time to burn, for which I was entirely out of ideas. I figured I could at least spend this time being productive, so I grabbed my laptop and continued writing my English essay as Shae resumed her previous conversation topic of stuff at school that was making her angry. It was entertaining, to be fair. 
+
+She was telling me about how Chris had gotten in a fight with this other kid in our grade yesterday after class, which I wasn't lucky enough to witness, but it was obviously all anyone would talk about for basically the entire day today, so word spread around fast. The part I hadn't heard about was that both Chris and the other guy, Nathan, got suspended for a week because of it. Chris was generally an asshole to everybody, including myself, so I didn't feel too bad about that. Although, I didn't know Nathan all that well. 
+
+Other than having a few classes together, I don't think I've ever held an actual conversation with the guy. I think it was safe to assume that Chris was the one who started it, and Shae seemed to agree with me, even though she hadn't seen the fight either.
 
 "But, apparently Nathan's going to show up tonight!" Shae exclaimed coyly.
 
 "...Remind me again why you want me to go to this specific party?"
 
-"You'll have a great time! It's not like we'll be involved in the drama anyway so think of it more as entertainment!"
+"You'll have a great time! We're not involved in the drama anyway, think of it more as entertainment!"
 
 "I think you and I have different definitions of the word 'entertainment'," I joked.
 
@@ -179,11 +183,11 @@ We exchanged our farewells and hung up. The party wasn't for at least another ho
 
 "I can't just leave Alex at a party with Chris. Those two start shit between each other all the time, and I'd rather not deal with the aftermath of that today."
 
-"I'm guessing it's safe to assume that Elliot's going too, then?"
+"I'm guessing it's safe to assume Elliot's going too in that case?"
 
-"He's not big on parties, but he'll usually go if everyone else is, unlike somebody," she says, gesturing towards me.
+"He's not big on parties, but he'll usually go if everyone else is, unlike somebody." She gestures towards me.
 
-"Good one," I reply, unmoving as I keep typing away at my assignment.
+"Good one," I reply, unmoved as I keep typing away at my assignment.
 
 "Well, we should probably leave soon since we're stopping at Tyler's place on the way."
 
@@ -191,9 +195,9 @@ I saved the document I had been working on, closing my laptop. "Just gotta get t
 
 "Okay, sadsack," Shae retorted.
 <hr>
-"I can't believe you actually agreed to go." Tyler joked as we walked towards the road from his house.
+"I can't believe you actually agreed to go," Tyler joked as we walked towards the road from his house.
 
-"Yeah, me either," I replied. I definitely didn't put in any effort in dressing up for the party, opting for a snug space-themed graphic tee, along with black jeans and a white zip-up hoodie. Shae and Tyler stand on opposite sides of me as we walk down the sidewalk.
+"Yeah, me either," I replied. I definitely didn't put any effort into dressing up for the party, opting for a light-ish red shirt, along with black jeans and a white zip-up hoodie.
 
 "Luckily I learned the subtle techniques in convincing you to do things against your better judgement, so now you get to have fun for once!" Shae exclaimed.
 
@@ -209,11 +213,11 @@ I saved the document I had been working on, closing my laptop. "Just gotta get t
 
 "Yeah, that’s a definite no for me, I’m already enough of a disappointment to my parents," I complained.
 
-"No one’s making you drink, Jake. At least you’d be safe if some old hag called the cops about the noise," Shae said.
+"No one’s making you drink, Jake. At least you’d be safe if some old hag called the cops about the noise," Shae said, laughing.
 
 "I think at that point we’re guilty by association. Just make a run for it," Tyler joked.
 
-"Dude, the chance of me outrunning a police officer successfully is about as likely as me not wanting to punch Chris tonight."
+"Dude, the chance of me outrunning a police officer successfully is about as probable as me *not* wanting to punch Chris tonight."
 
 "And the chance of you winning that fight is just as low!" Shae retorted, Tyler laughing in response.
 
@@ -223,17 +227,17 @@ These two love to reinforce the hard realities of my existence.
 
 "You’re not gonna punch Chris, Jake," Shae said. "You’re not that kind of person."
 
-"I’d pay money to see you fight that guy." Tyler said, nudging his elbow into my side. "I’d bet on you, too."
+"I’d pay money to see you fight that guy," Tyler said, nudging his elbow into my side. "I’d bet on you, too."
 
-It isn’t a secret that I’m not exactly athletic. I mean, I’m definitely not weak. But, fighting anyone of a similar size was not a situation that favoured my victory.
+It isn’t a secret that I’m not exactly athletic. I mean, I’m definitely not weak. But, fighting anyone of a similar size was not a situation that favoured my victory. I’m not exactly the most confrontational person, either. I’ve never been in a fight before, and I’d hope to keep it that way.
 
-"That sounds more like just getting the shit kicked outta me for your entertainment," I remarked, lightly punching Tyler’s shoulder in return.
+"That would just be the shit getting kicked outta me for your entertainment," I remarked, lightly punching Tyler’s shoulder in return.
 
 "Absolutely worth every penny!" Shae laughed.
 
 Luckily, the place wasn't much more than ten minutes away from Tyler’s place, so I didn’t have to endure listening to these two talk about me getting beat up for much longer.
 
-When we finally make it to Chris’ house, I’m suddenly filled with an impending sense of regret. Obviously, my parents would never in a million years agree to me going to a party like this. As far as they know, I’m just spending the evening hanging out with Shae at Tyler’s house. So yeah, this entire night had a lot of potential for disaster.
+When we finally make it to Chris’ house, I’m suddenly filled with an impending sense of regret. Obviously, my parents would never in a million years agree to me going to a Chris party. As far as they know, I’m just spending the evening hanging out with Shae at Tyler’s house. So yeah, this entire night had a lot of potential for disaster.
 
 Shae can clearly see my hesitation, because she grabs my hand, leading me up the walkway, Tyler following closely behind.
 
@@ -243,11 +247,11 @@ Shae can clearly see my hesitation, because she grabs my hand, leading me up the
 
 Our conversation is cut short by the opening door, revealing the familiar dude I know and loathe.
 
-"Oh, look, the Stephenson kid brought his girlfriend!" Chris exclaimed mockingly, looking back into the house, before peering around my shoulder, "And... Tyler?" he said, inquisitively.
+"Oh, look, the Stephenson kid brought his girlfriend!" Chris exclaimed mockingly. He looks back into the house, before peering beside us, "and... Tyler's with you?" he said, inquisitively.
 
-I lean over, blocking Tyler from his line of sight, "Yeah, hey, not my girlfriend by the way!" I said, gesturing at Shae.
+"Always a pleasure, Chris," Shae said, rolling her eyes. 
 
-I’ve known her since I first moved to Vestige, around the time I turned five years old, so it wasn’t uncommon for rumours to go around that we were dating. I’ve always thought of her more as a sister, if anything.
+Chris was a bit taller than me, with a bit of a stockier build. He had a bit of a beard, but it was pretty patchy, and his hair was a bit longer than most guys at our school. He was wearing a black t-shirt and jeans, which was pretty standard for him. We've known Chris we were younger, but we never really hung out with him. He was always a bit too much.
 
 "I asked them to come!" Tyler said. That was only partly true, but according to Tyler, they’ve been ‘somewhat-friends’ for quite a while now, so saying that would at least mean less mild-harassment from Chris for tonight.
 
@@ -255,27 +259,29 @@ I’ve known her since I first moved to Vestige, around the time I turned five y
 <hr>
 The party had been going on for a few hours at this point. I could recognize most of the people here from school, but not enough to hold a conversation with any of them. Most of my time here had been spent with Shae and Tyler. The place hasn't been incredibly crowded so far, but there were easily about thirty others in this part of the house alone. I’m assuming only high school grades were invited, but there were a considerable number of students to meet that requirement.
 
-The issue at hand for me - other than how crowded this place is - is that both Shae and Tyler ditched me to go... somewhere? Shae saw some of her friends and ran off with them, but Tyler didn't say much of anything before vanishing. So, I’ve been standing here in this random corner of the house, drink in hand, trying to make myself look busy and not awkward. This is exactly why I didn’t want to go to this party in the first place.
+The issue at hand for me - other than how crowded this place is - is that both Shae and Tyler ditched me to go... somewhere?
+
+Shae saw some of her friends and ran off with them shortly after we arrived, but Tyler didn't say much of anything before vanishing. So, I’ve been standing here in this random corner of the house, drink in hand, trying to make myself look busy and not awkward. This is exactly why I didn’t want to go to this party in the first place.
 
 "Jake!" A voice shouted from across the room.
 
-I turn my head in confusion, revealing Alex, walking towards me.
+I turn my head in confusion, revealing Alex walking towards me.
 
 "Oh, Alex! Hey! What’s up dude!" I finish the last bit of my soda, waving at him. There was beer available, but I wasn't feeling it. This is a Chris party after all. Not really my scene.
 
 "I didn’t think you’d want to come to something like this! Feeling the regret yet?" he asked me.
 
-"I like parties! It’s the times like these when I’m standing in a corner by myself with nothing to do that sucks. Seems to happen every time!" I exclaimed, pausing for a moment. "Okay, maybe I do hate parties- I’ve had to explain this so many times today."
+"I can enjoy parties! It’s times like this when I’m standing in a corner by myself with nothing to do that sucks. Seems to happen every time!" I exclaimed, pausing for a moment. "Okay, maybe I do hate parties- I’ve had to explain this so many times today."
 
-"Wow, sounds like somebody needs to socialize instead of stewing in a corner for the rest of the night!"
+"Wow, sounds like somebody needs to socialize instead of stewing in a corner for the rest of the night!" he joked.
 
-"Socialize? Really? I know just about everybody here and about none of them are worth talking-"
+"Socialize? Really? I know just about everybody here and about none of them are worth talking-" I stopped myself, realising how that sounded. "I mean, I know a few people here, but not enough to actually want to talk to them."
 
 "Hang with me and Elliot, then? Justin set up a racing game in the other room, we were gonna join, but we could use a fourth... You in?" he said, his tone obviously trying to sound coercing.
 
-"Please, anything to get me out of this corner for the next three hours," I said, Alex returning my words with a laugh.
+"Please, anything to get me out of this corner for the next three hours," I said. Alex returned my words with a laugh.
 
-As we move through the various cliques, I recognize a few faces here and there, though not enough to actually want to talk to them. There’s been music playing since we got here, and I have yet to recognize a single song. It seems to be a playlist full of drone-y bass-heavy music that I can’t say I’ve heard in normal situations. I’m doing my best to follow Alex, but he keeps weaving between everybody faster than I can keep up. I end up having to shove past the wave of bodies, in an effort to speed myself up. Luckily, it seems no one notices me anyway.
+As we move through the various cliques, I recognize a few faces here and there, not enough to go and talk to them. There’s been music playing since we got here, and I have yet to recognize a single song. It seems to be a playlist full of drone-y bass-heavy music that I can’t say I’ve heard in typical life situations. I’m doing my best to follow Alex, but he keeps weaving between everybody faster than I can keep up. I end up having to shove past the wave of bodies, in an effort to speed myself up. Luckily, it seems no one notices me anyway.
 
 When we arrive in the other room, it seems to be... just another living room, with a bit more spice. Walls decorated with a galore of punk posters, shelves holding more DVD cases than I would ever care to count, and even a mini-fridge. Is a mini-fridge that luxurious in my eyes?
 
@@ -287,7 +293,7 @@ Luckily no randoms from the party were in here. Sitting about five feet away fro
 
 "You’re the one who wanted to go get Jake, you snooze you lose!" Elliot retorted. Fair's fair I guess.
 
-"I wish had a room like this at my house..." I mumbled, looking around the room.
+"I wish had this kind of room at my house..." I mumbled, looking around the room.
 
 "Are we gonna play or what?" Justin said, cutting through the momentary silence.
 
@@ -303,11 +309,11 @@ After Justin turns the console on, he goes through the menus, launching the game
 
 "Oddly prideful words for someone about to lose!" Alex replies, laughing.
 
-The countdown begins, as the cameras slowly show the view of each car as it moves to the rear. When it starts, I somehow manage the fuckup of spinning my tires out, leaving me a few seconds behind the others as the car swerves back and forth. I curse under my breath as I try to regain control of the car, and swiftly pick up speed. The track seems like nothing I haven’t seen before, a typical professional track, with rows and rows of audience seating to the side. Unfortunately, I’m now in last place. The next few moments of the track are a few quick corners, allowing me the chance to catch up, at least a little.
+The countdown begins, as the cameras slowly show the view of each car as it moves to the rear. When it starts, I somehow manage the fuckup of spinning my tires out, leaving me a few seconds behind the others as the car swerves back and forth. I curse under my breath as I try to regain control of the car, and swiftly pick up speed. The track looks pretty typical for a racing game, with rows and rows of audience seating to the side. Unfortunately, I’m now in last place. The next few moments of the track are a few quick corners, allowing me the chance to catch up, at least a little.
 
-Unexpectedly, the track turns off of the main road, heading into a forested area. The road is considerably more narrow at this point, so it takes a conscious effort to not drive into the trees by the asphalt. It looks like the road stretches on forever, as I still can’t make out any upcoming turns. I guess the car I chose for the race had a better top speed than Justin’s, as I’m quickly catching up to him, moving into third place. I’m gripping my controller to an uncomfortable degree, but I can’t seem to relax the tension as I try to make my way into second place.
+Unexpectedly, the track turns off of the main road, heading into a forested area. The road is considerably more narrow at this point, so it takes a conscious effort to not drive into the trees by the asphalt. It looks like the road stretches on forever, and I still can’t make out any upcoming turns. I guess the car I chose for the race had a better top speed than Justin’s, as I’m quickly catching up to him, moving into third place. I’m gripping my controller to an uncomfortable degree, but I can’t seem to relax the tension as I try to make my way into second place.
 
-I don’t think I can pick up any more speed in this car, so me moving up is reliant on the road staying straight for just a bit longer. After what feels like a lifetime, the front of my car finally starts making it past Elliot’s, then the midsection, and finally, I’m in second. The sound of all four car engines is drowning out any remnants of the video game music, and I feel the sudden urge to curse out whoever turned the TV volume up this high. My eyes are focused entirely on Alex’s car as I make my final push into first place. If I were actually driving this fast in the real world, I’d be scared out of my fucking mind. Out of nowhere, Alex, and the others, begins to slow down considerably.
+I don’t think I can pick up any more speed in this car, so me moving up is reliant on the road staying straight for just a bit longer. After what seems to be a lifetime, the front of my car finally starts making it past Elliot’s, then the midsection, and finally, I’m in second. The sound of all four car engines is drowning out any remnants of the video game music, and I feel the sudden urge to curse out whoever turned the TV volume up this high. My eyes are focused entirely on Alex’s car as I make my final push into first place. If I were actually driving this fast in the real world, I’d be scared out of my fucking mind. Out of nowhere, Alex, and the others, begins to slow down considerably.
 
 *Oh fuck.*
 
@@ -319,7 +325,7 @@ I hold down the A button and pull the joystick as far to the right as possible. 
 
 "I wish I could tell you." I replied, eyes wide at whatever the fuck just happened.
 
-The distance I managed to gain on Alex isn’t by a whole lot, but there’s only about a quarter of the track left before we reach the finish line, so I have a chance at winning this. The track hurriedly changes from the forest as it reenters the main track. The long, straight roads seem to end as the road becomes a slow series of sharp turns, never giving me the opportunity to get back up to speed. It seems like the high top speed was my only advantage, because at every corner we take, I turn my camera around, revealing the other cars inching closer and closer to me.
+The distance I managed to gain on Alex isn’t by a whole lot, but there’s only about a quarter of the track left before we reach the finish line, so I have a chance at winning this. The track hurriedly changes from the forest as it reenters the main track. The long, straight roads seem to end as the road becomes a slow series of sharp turns, never giving me the opportunity to get back up to speed. The high top speed was my only advantage, because at every corner we take, I turn my camera around, revealing the other cars inching closer and closer to me.
 
 I can see the finish line on the mini-map, just a few more turns away. I know that I’m not gonna be able to distance myself from Alex and the others at this point, so my only feasible strategy is to keep moving, cutting the corners as fast as I can, and getting to the finish line before they can pass me. Unfortunately, Alex’s car seems to be getting too close for comfort now, meaning I might have to take some risks to ensure I can stay in first. As we approach the final turn, leading into the finish line, I realise I’m gonna have to try to drift this corner. 
 
@@ -327,7 +333,7 @@ In a final plea to win, I push down on the A button, pulling the handbrake. The 
 
 Alex is immediately behind me, and I put all of my strength into accelerating towards the finish line. I’d be fucked if I broke the controller, cause I can’t really afford the fifty dollars to buy a new one, but winning this race is more important to me at the moment. The finish line is only about five-hundred metres away, and Alex is slowly beginning to pass. 
 
-All I can do at this point is push the gas as much as I can, and pray that I can cross the finish line before he can get back into first place. The finish line gets closer and closer, and it seems like it’s gonna be too close for me to accurately tell the winner. 
+All I can do at this point is push the gas as much as I can, and pray that I can cross the finish line before he can get back into first place. The finish line gets closer and closer, it seems it’s gonna be too close for me to accurately tell the winner. 
 
 I can feel my heart pounding in my chest from how stressful this fucking game has been, and now, we’re about to find out whose efforts paid off. As each car makes its way over the finish line, each of our dedicated sections of the screen turns to slow motion. When it’s finally over, the text fades in on each screen, revealing our place...
 
@@ -355,9 +361,9 @@ I can feel my heart pounding in my chest from how stressful this fucking game ha
 
 "This is what I get for playing with a bunch of gamers," I exclaimed, applying a disgusted tone to the last word.
 
-"Not my fault you only play like one game a month!" Alex joked.
+"Not my fault you only play one game a month!" Alex joked.
 
-"Even then, I was like this close to beating you anyway!" I said, gesturing a miniscule distance between my thumb and pointer finger.
+"Even then, I was this close to beating you, anyway!" I said, gesturing a miniscule distance between my thumb and pointer finger.
 
 A voice interrupts our argument, coming from right outside the room, "Uh huh...
 
@@ -373,7 +379,7 @@ Dude, give me a couple of days, I’ll make it right!
 
 "Yeah, I swear."
 
-It seems that we all stopped talking, to listen in. "That sounds like Tyler, who’s he arguing with?" Elliot asked. I can’t make out the voice of whoever he’s talking to, it just sounds like mumbling.
+It seems that we all stopped talking, to listen in. "That sounds like Tyler, who’s he arguing with?" Elliot asked. I can’t make out the voice of whoever he’s talking to.
 
 They seem to pause for a moment, and the sound of a single set of footsteps can be heard.
 
@@ -413,7 +419,7 @@ He doesn’t say anything, instead opting to keep his head down, his hands cover
 
 "It’s fine, you don’t have to tell me if you don’t want to," I say, trying to keep my voice calm.
 
-He raises his head for a moment to look at me, trying to find words to say, instead opting to go back to crying, head in his hands. I’ve never been good with situations like this. I sit down next to him, putting my hand on his upper back, softly patting. 
+He raises his head for a moment to look at me, trying to find words to say, instead opting to go back to crying, head in his hands. I’ve never been good with these situations. I sit down next to him, putting my hand on his upper back, softly patting. 
 
 "I’m sorry- I’m a fucking idiot. I shouldn’t have asked you to come." 
 
@@ -433,7 +439,7 @@ This definitely wasn’t how I expected the night to go. But it was a sort of �
 
 Now that I think about it, that analogy is pretty messed up.
 
-A few silent minutes go by as I sit next to the still-crying Tyler, waiting for him to recollect himself. Even though he hasn’t actually said anything here, in the two months I’ve known him, this is probably the most vulnerable I’ve ever seen him. When I first met him, it was pretty accurate to describe him as the kind of guy who acts like he never feels emotion. Hell, even I refuse to be open about my feelings, but most of my friends see through that nowadays. Even now, I don’t really understand why I do that. I guess it’s just easier to not talk about shit like that? Is that why Tyler does it?
+A few silent minutes go by as I sit next to the still-crying Tyler, waiting for him to recollect himself. Even though he hasn’t actually said anything here, in the two months I’ve known him, this is probably the most vulnerable I’ve ever seen him. When I first met him, it was pretty accurate to describe him as the kind of guy who acts as though he never feels emotion. Hell, even I refuse to be open about my feelings, but most of my friends see through that nowadays. Even now, I don’t really understand why I do that. I guess it’s just easier to not talk about that shit. Is that why Tyler does it?
 
 "I think I’m good now," he said, shaking his hands as he stood up.
 
@@ -453,7 +459,7 @@ God damnit. This stupid fucking guy.
 
 "Heh, sure thing, Jake," he said, sounding weirdly satisfied with himself. I didn’t want to spend any more time in this fucking house than I needed to, especially while talking to Chris, so I continue on, pulling Tyler by the hand towards the exit. After a few moments, we made it to the front door. I promptly open it and we both head outside. 
 
-We’re immediately greeted by the light of the moon and the starry sky as we head down the walkway toward the street. One of the few benefits of living in such a backwater town was the absence of any significant light pollution. I’ve been to Portland a few times for school field trips and such, and seeing the sheer difference in visible stars was absolutely staggering. I could only imagine what it would be like to go stargazing in the middle of nowhere. 
+We’re immediately greeted by the light of the moon and the starry sky as we head down the walkway toward the street. One of the few benefits of living in such a backwater town was the absence of any significant light pollution. I’ve been to Portland a few times for school field trips and such, and seeing the sheer difference in visible stars was absolutely staggering. I could only imagine what it would look like to go stargazing in the middle of nowhere. 
 
 "At least it’s a nice night out." I said. 
 
@@ -463,11 +469,11 @@ We’re immediately greeted by the light of the moon and the starry sky as we he
 
 I send the text, and close my phone, returning it to my pocket. As we walk down the road, we stew in the silence, the only auditory sounds coming from the party still close by, and the local crickets chirping. 
 
-I won’t lie, as much as I usually appreciate quiet, this is the loudest silence I’ve ever been stuck in. It goes on for more than five minutes. I could tell he wanted to say something, and I was eager to find out whatever was going on that started this in the first place. But, like the coward I am, I try to lighten the mood. 
+I won’t lie, as much as I usually appreciate quiet, this is the loudest silence I’ve ever been stuck in. It goes on for more than five minutes. I could tell he wanted to say something, and I was eager to find out whatever was going on that started this in the first place. But, as the coward I am, I try to lighten the mood. 
 
 "Hopefully that satisfies your quota for me going to parties with you for a while, cause I do not plan on having the energy for something like that again for at least a few months." I said, awkwardly laughing. He doesn’t respond, at least for a while, as he raises his hand, scratching the back of his neck nervously. "...Uhh, are you sure you don’t wanna talk about it? I mean-" 
 
-"Can I tell you something?" he interrupted, his voice still cracking like it was in the bathroom. 
+"Can I tell you something?" he interrupted, his voice still cracking as it was in the bathroom. 
 
 "...Sure?" I replied, slightly confused. 
 
@@ -483,13 +489,13 @@ Well... can’t say that’s exactly what I was expecting. Was I expecting anyth
 
 "...You... think?" 
 
-"Well, like- I don’t know. I guess I’ve just been thinking for a while, and it makes sense... all things considered," he replied anxiously. 
+"Well, I don’t know. I guess I’ve just been thinking for a while, and it makes sense... all things considered," he replied anxiously. 
 
 "That- that’s great!" I say, attempting to sound genuinely supportive. "Does anyone else know?"
 
-"I only really realised relatively recently, so... no. But compared to anyone else, I probably trust you the most to not, like- tell anyone?" he said, looking over at me again. 
+"I only realised relatively recently, so... no. But compared to anyone else, I probably trust you the most to not tell anyone?" he said, looking over at me again.
 
-"Well, I appreciate the completely undeserved confidence you have in me," I joked, realising too late that now probably isn’t the time for that, "Yeah, I promise I won’t tell anyone." 
+"Well, I appreciate the completely undeserved confidence you have in me," I joked, realising too late that now probably isn’t the time for that. "Yeah, I promise I won’t tell anyone." 
 
 "Thank you," he replies, a genuine smile strewn across his face.  
 
@@ -509,7 +515,7 @@ I agreed, and we let the conversation cut itself off as we finally approached Ty
 
 Of course. If I had to lie to my parents, why would I expect anything different from anyone else? 
 
-"Okay, uhh... maybe we can make that lie... not a lie?" I said, sounding weirder than I’d like. 
+"Okay, uhh... maybe we can make that lie... not a lie?" I said, sounding weirder than I’d hoped. 
 
 Tyler looked at me, confused for a moment, eyes widening as he realised what I meant, "I can’t let you do that, I’ve already forced you through too much shit tonight." 
 
@@ -539,7 +545,7 @@ I move over to open the closet door, "I have some spare pillows and blankets in 
 
 "So, why do you have a spare bed... thing... in your room anyway?" he asked. 
 
-"My cousins’ family came to visit from the other side of the country a few years back, so my parents made the cousins stay in my room and gave me our old couch that used to be in the living room. They were here for like two weeks, it was fucking awful," I remarked, pulling a comforter out of the closet and unfolding it out on the mattress. 
+"My cousins’ family came to visit from the other side of the country a few years back, so my parents made the cousins stay in my room and gave me our old couch that used to be in the living room. They were here for two weeks, it was fucking awful," I remarked, pulling a comforter out of the closet and unfolding it out on the mattress. 
 
 "That sounds miserable," Tyler sympathized. 
 
@@ -557,9 +563,9 @@ He turned his head, baffled, "Was that a dig on me?" he questioned.
 
 "God, I hope so, if my parents found out I went to that party, that’d be one thing, but if I got drunk? I doubt I’d see the outside world for months," I sighed. 
 
-"Even if you were drunk, it’s not like you would still be drunk in the morning for them to find out, anyway." 
+"Even if you were drunk, you wouldn't *still* be drunk in the morning for them to find out, anyway." 
 
-"Yeah, I guess you’re right," I said, letting out a yawn shortly thereafter. "Fuck, I didn’t realise how tired I am." Looking at my alarm clock, it was 10:37 PM. That wasn’t terribly late, I’ve definitely stayed up later when there was an assignment due the next day that I forgot about, but even before I met up with Alex and Elliot, that party was just wearing me down. "At least I can sleep in ‘till like noon tomorrow. You sure you don’t need anything before I pass out from exhaustion?" 
+"Yeah, I guess you’re right," I said, letting out a yawn shortly thereafter. "Fuck, I didn’t realise how tired I am." Looking at my alarm clock, it was 10:37 PM. That wasn’t terribly late, I’ve definitely stayed up later when there was an assignment due the next day that I forgot about, but even before I met up with Alex and Elliot, that party was just wearing me down. "At least I can sleep in tomorrow. You sure you don’t need anything before I pass out from exhaustion?" 
 
 "No, I’m okay, I think. And, thank you... Jake," he replied, smiling at me. 
 
@@ -573,13 +579,13 @@ As I wake up, I’m blinded by the bright sun shining in through my windows, dir
 
 I slowly sit up, yawning as I lean back against the bed frame. I glanced around the room, noticing that the hide-a-bed had been folded back into the couch, Tyler nowhere to be seen. I reach over to my bedside table to check my phone, finding an unread text from him, sent a few hours ago. 
 
-Tyler: hey 
+**Tyler**: *hey*
 
-woke up early, figured youd want 2 sleep in. 
+**Tyler**: *woke up early, figured youd want 2 sleep in.*
 
-will call u later, might have somthin big i wanna share, will see 
+**Tyler**: *will call u later, might have somthin big i wanna share, will see*
 
-A pair of oddly cryptic messages. Guess that confirms he isn’t here anymore. 
+A pair of oddly cryptic messages. Guess that confirms he isn’t here anymore. I wonder what he wants to talk about? I hope it’s not anything bad. 
 
 At least it was a Saturday, meaning that I had full permission to be a slob. I get out of bed, deciding to skip my usual shower until after breakfast. Other than the snacks that were out at the party, I ate practically nothing last night. I could almost feel my stomach turning itself inside out, so I hurried out of my room and downstairs to the kitchen to have some breakfast. 
 
@@ -589,11 +595,11 @@ The first thing I notice when I get downstairs is my mom, sitting on the couch w
 
 "Hey, mom!" There’s a moment of silence as I grab a bowl out of the cupboard, as well as a box of cereal, and begin to pour. 
 
-She speaks up, "Your friend, Tyler, seemed to be in a hurry to leave this morning, anything I should know about?" 
+She speaks up, "Your friend Tyler seemed to be in a hurry to leave this morning, anything I should know about?" 
 
 "...Not that I know of? Like what?" I questioned as I poured some milk from the fridge, grabbed a spoon, and sat at the kitchen counter. 
 
-"Well, it’s not like we didn’t notice that you weren’t home by ten like your father asked you  to be, so obviously you must have a good excuse for why you didn’t at least call to let us know you’d be late?" she replied. I could tell when she started talking all responsible-parent-like, it meant that she was gonna lecture me about something. 
+"Well, it’s not like we didn’t notice that you weren’t home by ten like your father asked you to be, so obviously you must have a good excuse for why you didn’t at least call to let us know you’d be late?" she replied. I could tell when she started talking all responsible-parent-like, it meant that she was gonna lecture me about something. 
 
 I sighed, thinking of the right thing to say. "...Well, Tyler was going through some things... so I was trying to help him with that, I guess. Time just kinda flew by and I wasn’t able to get home ‘till later." 
 
@@ -601,7 +607,7 @@ I sighed, thinking of the right thing to say. "...Well, Tyler was going through 
 
 "Yeah... we went out for a bit and once I noticed how late it was I offered to let him spend the night at our house since it was closer," I said. Almost entirely a lie, but definitely preferable to the truth. 
 
-"Jake..." she said, setting her book down on the coffee table in front of the couch, walking over to me, and resting a hand on my shoulder. "You’re sixteen now, obviously we don’t expect you to tell us everything you’re up to nowadays. But we worry about you! I worry about you. Just for future reference, please let us know if you’re gonna be home late or anything like that." 
+"Jake..." she said, setting her book down on the coffee table in front of the couch, walking over to me, and resting a hand on my shoulder. "You’re sixteen now, obviously we don’t expect you to tell us everything you’re up to nowadays. But we worry about you! I worry about you. Just for future reference, please let us know if you’re gonna be home late or anything like that."
 
 "Okay, I’ll keep that in mind," I said, looking up at her. 
 
@@ -625,6 +631,6 @@ As I finish my bowl of cereal, I realise that I probably should go shower as soo
 
 "Tyler! Calm. Down. Just take a few deep breaths," I said. After a few moments, I can hear his breathing steadying on the other side of the call. "Okay, good. Now, what’s wrong?" 
 
-There’s a short pause as he tries to find the right words to say. It sounds like he’s been crying. What even the fuck has been the past twenty-four hours? 
+There’s a short pause as he tries to find the right words to say. It sounds like he’s been crying. What the fuck has been the past twenty-four hours? 
 
-"Can- do you think I could crash at y- your place for a few more nights? I don’t know what else I can do." 
+"Can- do you think I could crash at y- your place for a few more nights?"
