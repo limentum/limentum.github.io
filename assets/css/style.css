@@ -227,4 +227,7 @@ hr {
         pointer-events: none;
         cursor: default;
     }
+    nav#social {
+        padding: 0 0.25rem;
+    }
 }
