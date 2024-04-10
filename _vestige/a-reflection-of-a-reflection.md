@@ -25,8 +25,9 @@ I heard a voice in my mind,
 I will try, I will try, I will try.
 </figure>
 <hr>
-<p class="center">{{ page.date | date: "%B %d, %Y" }}</p>
-
+<div class=center>
+    {{ page.date | date: "%B %d, %Y" }}
+</div>
 I looked into the bathroom mirror, frowning. My hair looked a combination of messy, and matted. I tended to be a restless sleeper, so it wasn't unusual for me to end up a disaster in the morning. I go hop in one of the dorm showers, taking a moment to comb out the curls and knots. The warm water feels nice, comforting me after the bad dream I had last night. I knew the trip we were planning was stressing the shit out of me.
 
 I could hear my group chat with Shae and Liam blowing up. I didn't want to get my phone wet from grabbing it. They were probably trying to figure out when I'd be coming to pick them up, so we could leave. I try to hurry up my showering process, but it still takes a while longer. After turning off the water, I quickly go to dry off and grab my phone to look at the messages.

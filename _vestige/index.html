@@ -2,6 +2,7 @@
 layout: default
 title: Vestige
 is_index: true
+chapter: 0
 ---
 
 <nav aria-label="breadcrumb" id="breadcrumb">
@@ -10,7 +11,7 @@ is_index: true
         <li><a href="/vestige/">Vestige</a></li>
     </ul>
 </nav>
-<nav id="tableOfContents" aria-label="Vestige chapter navigation">
+<nav class="post" id="tableOfContents" aria-label="Vestige chapter navigation">
   <table>
     <caption>Table of Contents</caption>
     <thead>
@@ -20,7 +21,8 @@ is_index: true
       </tr>
     </thead>
     <tbody>
-      {% for post in site.vestige %}
+      {% assign sorted_vestige = site.vestige | sort: 'chapter' %}
+      {% for post in sorted_vestige %}
         {% unless post.is_index %}
           <tr>
             <td>{{ post.chapter }}</td>

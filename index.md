@@ -16,3 +16,14 @@ Check out my latest single on Bandcamp<sup>*</sup>! From the full album "Vestige
         <a href="https://limentum.bandcamp.com/album/vestige">Vestige by Limentum</a>
     </iframe>
 </aside>
+
+<nav aria-label="Social navigation" id="social">
+    <h2>Follow me on:</h2>
+    <ul>
+        <li><a href="https://linktr.ee/{{ site.linktree_username }}" title="Linktree">linktr.ee</a></li>
+        <li><a href="https://instagram.com/{{ site.instagram_username }}" title="Instagram">Instagram</a></li>
+        <li><a href="https://threads.net/{{ site.threads_username }}" title="Threads">Threads</a></li>
+        <li><a href="https://github.com/{{ site.github_username }}" title="GitHub">GitHub</a></li>
+        <li><a href="https://www.youtube.com/{{ site.youtube_username }}" title="YouTube">YouTube</a></li>
+    </ul>
+</nav>
