@@ -1,0 +1,22 @@
+<header id="siteHeader">
+    <a href="#bodyHome" class="skip-link">Skip to main content</a>
+    <div id="siteInfo">
+        <img id="logo" alt="" src="{{ 'assets/images/logo512.png' | relative_url }}">
+        <a href="/" id="homeLink"><h1>Limentum</h1></a>
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger-menu" role="button" aria-controls="headerNav" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+    <nav id="headerNav" aria-label="Header navigation">
+        <ul>
+            <li><a href="/" {% if page.url == "/" %}id="currentPage"{% endif %}>Home</a></li>
+            <li><a href="/vestige/" {% if page.url contains "/vestige/" %}id="currentPage"{% endif %}>Vestige</a></li>
+            <li><a href="https://limentum.com">limentum.com</a></li>
+            <li><a href="https://linktr.ee/limentum">linktr.ee</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
