@@ -78,3 +78,6 @@ jekyll-seo-tag:
   description: "A collection of projects by Limentum."
   image: "/assets/images/logo512.png"
   canonical_url: "https://projects.limentum.com"
+
+exclude:
+  - readme.md
