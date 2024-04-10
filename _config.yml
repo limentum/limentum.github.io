@@ -96,3 +96,4 @@ jekyll-seo-tag:
 exclude:
   - readme.md
   - CNAME
+  - /_drafts
