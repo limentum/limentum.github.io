@@ -53,6 +53,21 @@ jekyll-feed:
   atom_path: feed.xml
   json_path: feed.json
 
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_backlink: ↩
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: true
+  coderay:
+    coderay_line_numbers: table
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 2
+    coderay_bold_every: 10
+    coderay_css: style
+
 jekyll-sitemap:
   defaults:
     sitemap: true
