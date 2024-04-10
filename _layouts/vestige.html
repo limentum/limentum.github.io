@@ -3,13 +3,13 @@ layout: default
 ---
 <article class="post">
   {% if page.collection == 'vestige' %}
-    {% unless post.is_index %}
+    {% unless page.is_index %}
         <nav aria-label="breadcrumb" id="breadcrumb">
             <ul class="breadcrumb">
                 <li><a href="../">Home</a></li>
                 <li><a href="/vestige/">Vestige</a></li>
-                {% if post.is_index != true %}
-                    <li><a href="{{ post.url | relative_url }}">Chapter {{ post.chapter }}: {{ post.title }}</a></li>
+                {% if page.is_index != true %}
+                    <li><a href="{{ post.url | relative_url }}">Chapter {{ page.chapter }}: {{ page.title }}</a></li>
                 {% endif %}
             </ul>
         </nav>
