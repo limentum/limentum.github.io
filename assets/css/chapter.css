@@ -19,7 +19,7 @@ a:hover {
     font-size: 1.5rem;
 }
 /* for chapter articles, spaces the paragraph text and indents the first line */
-article.post {
+article.post, nav#breadcrumb {
     margin: auto;
     width: 75%;
 }
@@ -38,15 +38,9 @@ nav#chapterNav ul {
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style-type: none;
     padding: 0;
-}
-#previous {
-    padding: 1rem 0;
-}
-
-#next {
-    padding: 1rem 0;
 }
 
 nav#chapterNav ul li {
@@ -54,9 +48,10 @@ nav#chapterNav ul li {
     border-right: 1px solid white;
 }
     nav#chapterNav ul li a {
+        display: block;
         transition: color 0.25s ease, background-color 0.25s ease;
         font-size: 1rem;
-        padding: 1rem;
+        padding: 1.5rem;
         text-decoration: none;
         color: white;
     }
