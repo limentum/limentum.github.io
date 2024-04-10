@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<article class="post">
-  {% if page.collection == 'vestige' %}
+{% if page.collection == 'vestige' %}
     {% unless page.is_index %}
         <nav aria-label="breadcrumb" id="breadcrumb">
             <ul class="breadcrumb">
@@ -14,7 +13,8 @@ layout: default
             </ul>
         </nav>
     {% endunless %}
-  {% endif %}
+{% endif %}
+<article class="post">
   <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
   {{ page.content }}
 </article>
@@ -25,11 +25,13 @@ layout: default
     {% for post in sorted_vestige %}
       {% if post.url == page.url %}
         {% unless forloop.first %}
-          {% assign previous_post = sorted_vestige[forloop.index0 | minus: 1] %}
+          {% assign previous_index = forloop.index0 | minus: 1 %}
+          {% assign previous_post = sorted_vestige[previous_index] %}
           <li id="previous"><a href="{{ previous_post.url | relative_url }}">Previous</a></li>
         {% endunless %}
         {% unless forloop.last %}
-          {% assign next_post = sorted_vestige[forloop.index0 | plus: 1] %}
+          {% assign next_index = forloop.index0 | plus: 1 %}
+          {% assign next_post = sorted_vestige[next_index] %}
           <li id="next"><a href="{{ next_post.url | relative_url }}">Next</a></li>
         {% endunless %}
       {% endif %}
