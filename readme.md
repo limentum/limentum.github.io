@@ -1,7 +1,7 @@
 # Welcome to Limentum Projects!
 ## A site built with Jekyll and hosted on GitHub Pages.
 
-(https://projects.limentum.com)[projects.limentum.com]
+[projects.limentum.com](https://projects.limentum.com)
 
 This site is a place for me to share my projects, thoughts, and ideas. I'm a musician, software developer, and writer. I'm always working on something new, so check back often for updates!
 
