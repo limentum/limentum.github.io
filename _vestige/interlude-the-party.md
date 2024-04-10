@@ -6,7 +6,7 @@ date: 2012-04-13
 last_updated: 2024-04-10
 ---
 <small id="useless" aria-hidden="true">a reflection of a reflection of a reflection of a reflec</small>
-<figure markdown="1" aria-label="Plane Crash by Covey">
+<figure markdown="1" aria-label="Pre-chapter verse">
 As the night fills the sky,
 
 all my fears are dissipating.

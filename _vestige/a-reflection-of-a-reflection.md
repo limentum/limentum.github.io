@@ -6,7 +6,7 @@ date: 2017-03-11
 last_updated: 2024-04-10
 ---
 <small id="useless" aria-hidden="true">It's been a while since I've written anything. I've been busy with work, and I've been busy with life. I've been busy with everything but writing. I've been busy with everything but myself. I've been busy with everything but my own thoughts. I've been busy with everything but my own feelings. I've been busy with everything but my own life. I've been busy with everything but my own reflection.</small>
-<figure markdown="1" aria-label="Seven Swans by Sufjan Stevens">
+<figure markdown="1" aria-label="Pre-chapter verse">
 We didn't sleep too late,
 
 there was a fire in the yard.
