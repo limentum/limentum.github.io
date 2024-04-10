@@ -35,12 +35,12 @@ collections:
     output: true
     permalink: /vestige/:title
 
-# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-minifier
+  - base64
+
 
 jekyll-feed:
   posts:
