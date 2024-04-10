@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+a:link {
+    color: lightskyblue;
+}
+a:hover {
+    color: lightgray;
+}
+/* for my quirky quips */
+#useless {
+    display: none;
+}
+.post > h2 > a {
+    color: white;
+}
+.post article p span.altFont {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+/* for chapter articles, spaces the paragraph text and indents the first line */
+article.post {
+    margin: auto;
+    width: 75%;
+}
+    article.post p {
+        font-size: 1.125rem;
+        text-indent: 1rem;
+        line-height: 2rem;
+    }
+.post article figure p {
+    text-indent: 0;
+}
+article.post figure p:nth-child(even) {
+    text-indent: 2rem;
+}
+nav#chapterNav ul {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+#previous {
+    padding: 1rem 0;
+}
+
+#next {
+    padding: 1rem 0;
+}
+
+nav#chapterNav ul li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+    nav#chapterNav ul li a {
+        transition: color 0.25s ease, background-color 0.25s ease;
+        font-size: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    nav#chapterNav ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+    nav#chapterNav ul li a:focus {
+        color: black;
+        background-color: white;
+    }
+/* centers content and gives it room to breathe */
+.center {
+    text-align: center;
+    border: 0.1rem double;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    width: fit-content;
+}
+    article.post .center > p {
+        text-indent: 0;
+    }
+#tableOfContents {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#tableOfContents table {
+    margin: auto;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+    #tableOfContents table caption {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    #tableOfContents table th, #tableOfContents table td {
+        text-align: left;
+        border: 1px solid;
+        padding: 0.25rem;
+    }
+    table tbody tr td a {
+        font-size: 1.5em;
+    }
+/* Style the list */
+ul.breadcrumb {
+  padding: 0.6250em 1rem;
+  list-style: none;
+  background-color: var(--lightblack);
+}
+    /* Display list items side by side */
+    ul.breadcrumb li {
+    display: inline;
+    }
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb li+li:before {
+    padding: 0.5rem;
+    color: white;
+    content: "/\00a0";
+    }
+        /* Add a color to all links inside the list */
+        ul.breadcrumb li a {
+        text-decoration: none;
+        }
+        /* Add a color on mouse-over */
+        ul.breadcrumb li a:hover {
+        color: lightgray;
+        text-decoration: underline;
+        }
+@media (max-width: 1200px) {
+    .post {
+        width: 85%;
+    }
+}
+@media (max-width: 1000px) {
+    .post {
+        width: 90%;
+    }
+}
+@media (max-width: 800px) {
+    .post {
+        width: 95%;
+    }
+}
