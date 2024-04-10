@@ -78,6 +78,7 @@ nav#social {
     }
         nav#social ul li {
             margin: 0;
+            padding: 0.5rem;
         }
             nav#social ul li a {
                 vertical-align: middle;
