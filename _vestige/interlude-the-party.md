@@ -386,7 +386,7 @@ They seem to pause for a moment, and the sound of a single set of footsteps can 
 
 I leave as the three start up another game, kind of glad I don’t have to have another near-heart attack from playing again. When I get back into the dimly lit hallway, Tyler is nowhere to be seen. 
 
-I look around, heading into the main room of the house to see if I can spot him. It’s pretty difficult to see anything, because of how dim it is here, plus the sheer amount of animals crowding up the place. Despite that, I manage to spot the Grey Wolf a ways away, hurrying quickly into the bathroom. 
+I look around, heading into the main room of the house to see if I can spot him. It’s pretty difficult to see anything, because of how dim it is here, plus the sheer amount of people crowding up the place. Despite that, I manage to spot the guy a ways away, hurrying quickly into the bathroom. 
 
 As I shove my way through a few groups of teens, I almost fall over a few times, gaining confused stares from a few in the room. I lightly knock on the bathroom door, waiting for a response, "Hey, you okay Tyler?" After a few moments, I’m returned with no answer, "...Tyler-" Before I can finish my sentence, Tyler swiftly pulls open the bathroom door, pulling me in and shutting the door behind me, before sitting down on the side of the bathtub. As I’m about to say something, I hear the sound of him sniffling. 
 
@@ -436,11 +436,11 @@ A few silent minutes go by as I sit next to the still-crying Tyler, waiting for 
 
 "Okay, let’s leave this dumpster fire," I remarked. Tyler shot me a confused look in return. "Whatever, let’s just go," I continued.
 
-I open the bathroom door, grabbing his arm as I lead him out into the main room. Almost immediately the voice of a certain black cat perks up behind us.
+I open the bathroom door, grabbing his arm as I lead him out into the main room. Almost immediately the voice of a certain someone perks up behind us.
 
 "Oh? And what did you two get up to in there?" Chris remarked, laughing, "I didn’t know you guys were THAT kind of friends!"
 
-God damnit. This stupid fucking feline. 
+God damnit. This stupid fucking guy. 
 
 "Yeah, it’s too loud out here for me, I needed a break, he came with." I explained, Tyler standing closely behind me with a confused look on his face. Just roll with it, dude, I think to myself, knowing I probably shouldn’t say that out loud. 
 
