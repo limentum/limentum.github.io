@@ -57,10 +57,11 @@ main {
                 background-color: white;
                 color: black;
             }
-            #siteHeader nav ul li a:focus, #siteFooter div #footerNav li a:focus {
-                background-color: white;
-                color: black;
-            }
+            
+                #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
+                    background-color: white;
+                    color: black;
+                }
             #siteHeader nav ul li a#currentPage {
                 border-color: var(--primary-color);
             }
