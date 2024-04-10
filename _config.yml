@@ -28,6 +28,10 @@ twitter_username: fearslipstreams
 github_username:  limentum
 threads_username: limentum
 logo: /_themes/theme/assets/images/logo512.png
+collections:
+  vestige:
+    output: true
+    permalink: /vestige/:title
 
 # Build settings
 plugins:
@@ -35,6 +39,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-minifier
+
+jekyll-minifier:
+  remove_spaces_inside_tags: true   # Remove spaces inside HTML tags
+  js_minify: true                   # Minify JavaScript
+  css_minify: true                  # Minify CSS
+  tidy_html: true                   # Tidy (prettify) HTML
+  remove_multi_spaces: true         # Remove multiple consecutive spaces
+  remove_comments: true             # Remove HTML comments
 
 # Exclude from processing.
 # The following items will not be processed, by default.
