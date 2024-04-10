@@ -1,8 +1,38 @@
 ---
 layout: default
 ---
-
 <article class="post">
+  {% if page.collection == 'vestige' %}
+    {% unless post.is_index %}
+        <nav aria-label="breadcrumb" id="breadcrumb">
+            <ul class="breadcrumb">
+                <li><a href="../">Home</a></li>
+                <li><a href="/vestige/">Vestige</a></li>
+                {% if post.is_index != true %}
+                    <li><a href="{{ post.url | relative_url }}">Chapter {{ post.chapter }}: {{ post.title }}</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endunless %}
+  {% endif %}
   <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
   {{ page.content }}
 </article>
+<hr>
+<nav id="chapterNav" aria-label="Chapter navigation">
+  <ul>
+    {% assign sorted_vestige = site.vestige | sort: 'chapter' %}
+    {% for post in sorted_vestige %}
+      {% if post.url == page.url %}
+        {% unless forloop.first %}
+          {% assign previous_post = sorted_vestige[forloop.index0 | minus: 1] %}
+          <li id="previous"><a href="{{ previous_post.url | relative_url }}">Previous</a></li>
+        {% endunless %}
+        {% unless forloop.last %}
+          {% assign next_post = sorted_vestige[forloop.index0 | plus: 1] %}
+          <li id="next"><a href="{{ next_post.url | relative_url }}">Next</a></li>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
