@@ -98,7 +98,7 @@ nav#chapterNav ul li {
     #tableOfContents table th, #tableOfContents table td {
         text-align: left;
         border: 1px solid;
-        padding: 0.25rem;
+        padding: 0.5rem;
     }
     table tbody tr td a {
         font-size: 1.5em;
