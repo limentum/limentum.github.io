@@ -5,7 +5,7 @@ chapter: 4
 date: 2017-03-12
 last_updated: 2024-04-10
 ---
-<small id="useless"></small>
+<small id="useless" aria-hidden="true">The undertow never ceases to pull me back in. I'm not sure if it's a good thing or not. I'm not sure of anything anymore.</small>
 <figure markdown="1" aria-label="Harsh Realm by Widowspeak">
 Last night, I thought of you.
 
@@ -385,3 +385,15 @@ Was he still holding on to those folk tales we heard as kids? Obviously, I’m n
 "This conversation is getting a bit derailed; might I suggest the dilemma of this upcoming fork in the road?"
 
 He was right, there was a divergence in the path up ahead. I don't *think* I saw that on the trailmap, but every trail that was marked led right back to the main road eventually, so...
+
+"I guess we can just pick one and see where it leads," I suggested, looking at the two paths in front of us.
+
+"Sounds like an adventure," Liam said with a grin.
+
+"Left or right?" Shae asked, looking at the group.
+
+"Let's go left," Alex decided, pointing to the aforementioned path.
+
+We followed the path, our footsteps echoing in the quiet night. The moonlight filtered through the trees, casting shadows on the ground. The air was crisp and cold, but it felt refreshing. The sound of the wind rustling through the leaves was soothing.
+
+After a while, the path met up with a small stream that flowed towards the lake. The water was clear and cold, and the moonlight reflected off the surface.  

@@ -5,6 +5,7 @@ chapter: 2
 date: 2017-03-12
 last_updated: 2024-04-10
 ---
+<small id="useless" aria-label="The End of the World by Sylvia Dee" aria-hidden="true">why does the sun go on shining? Why does the sea rush to shore? Don't they know it's the end of the world? 'Cause you don't love me anymore.</small>
 <figure markdown="1" aria-label="Age of Adz by Sufjan Stevens">
 Well I have known you
 
