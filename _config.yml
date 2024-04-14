@@ -29,7 +29,6 @@ github_username:  limentum
 threads_username: limentum
 instagram_username: limentum
 youtube_username: limentum
-logo: /_themes/theme/assets/images/logo512.png
 collections:
   vestige:
     output: true
@@ -66,10 +65,6 @@ kramdown:
     coderay_tab_width: 2
     coderay_bold_every: 10
     coderay_css: style
-
-jekyll-sitemap:
-  defaults:
-    sitemap: true
 
 jekyll-minifier:
   remove_spaces_inside_tags: true   # Remove spaces inside HTML tags
