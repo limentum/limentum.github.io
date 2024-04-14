@@ -3,7 +3,7 @@ layout: vestige
 title: A Reflection of a Reflection
 chapter: 1
 date: 2017-03-11
-last_updated: 2024-04-10
+last_updated: 2024-04-13
 ---
 <small id="useless" aria-hidden="true">It's been a while since I've written anything. I've been busy with work, and I've been busy with life. I've been busy with everything but writing. I've been busy with everything but myself. I've been busy with everything but my own thoughts. I've been busy with everything but my own feelings. I've been busy with everything but my own life. I've been busy with everything but my own reflection.</small>
 <figure markdown="1" aria-label="Seven Swans by Sufjan Stevens">
@@ -39,7 +39,7 @@ I could hear my group chat with Shae and Liam blowing up. I didn't want to get m
 
 Shit, yeah, one missed call from Liam and a few more texts on top of that. Fuck. I started typing in a response.
 
-**Jake**: does it rly matter what time we leave? the cabin we booked just says to show up after 5
+**Jake**: *does it rly matter what time we leave? the cabin we booked just says to show up after 5*
 
 **Shae**: *i want to get there at a reasonable time so we can at least meet the guys tonight! alex works at like six in the morning tomorrow so i will kill you if we have to wait until tomorrow to see him*
 
@@ -537,11 +537,11 @@ Elliot is putting on his coat and boots, Shae is in her room, and I assume that 
 
 I grab the polaroid again and take a seat on the side of the bed. It's not like the picture was some huge romantic gesture or anything, but it felt good to... be cared about? I didn't want to make a big deal out of it, that's the last thing I wanted to subject him to. But still, the past few months with Liam have been good for me, to say the least. I didn't want to linger too long inside, everyone probably out there already waiting. I put the photo in my wallet and put it in my pocket. When I step out into the living room, all of the lights are out, except for the porch light shining into the window. I assume Shae left while I was in the bedroom and turn on the living room light and pull out my phone to text Liam.
 
-Jake: Does anyone need anything before I come out?
+**Jake**: *Does anyone need anything before I come out?*
 
 It takes a moment, but eventually, he starts typing.
 
-Liam: Alex would like one of the beers in the fridge if you can, that's probably it!
+**Liam**: *Alex would like one of the beers in the fridge if you can, that's probably it!*
 
 I head over to the kitchen to grab one of the beers from the fridge, and- fuck it, one for myself too. The only thing in the fridge is the drinks and I guess some chip dip or something? I didn't recognize it.
 
