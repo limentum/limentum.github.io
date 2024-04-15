@@ -76,7 +76,7 @@ jekyll-minifier:
   remove_link_attributes: true      # Remove type="text/css" from link tags
 
 jekyll-seo-tag:
-  robots: "noindex, nofollow"
+  robots: "index, follow"
   title_separator: "-"
   title: "Limentum Projects"
   description: "A collection of projects by Limentum."
