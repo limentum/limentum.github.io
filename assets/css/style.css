@@ -8,6 +8,7 @@
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: min(max(0.76rem, 1.05vw), 3rem);
     color: white;
+    text-underline-offset: 0.12rem;
 }
 a {
     color: var(--text-color);
@@ -90,7 +91,6 @@ nav#social {
                 text-decoration: none;
                 font-size: 1.2rem;
                 padding: 0.5rem;
-                line-height: 2rem;
             }
             nav#social ul li a:hover {
                 text-decoration: underline;
