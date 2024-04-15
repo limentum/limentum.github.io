@@ -25,10 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://projects.limentum.com" # the base hostname & protocol for your site, e.g. http://example.com
 website: "https://limentum.com"
-github_username:  limentum
-threads_username: limentum
-instagram_username: limentum
-youtube_username: limentum
 collections:
   vestige:
     output: true
