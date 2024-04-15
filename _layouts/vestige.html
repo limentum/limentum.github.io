@@ -2,39 +2,39 @@
 layout: default
 ---
 {% if page.collection == 'vestige' %}
-    {% unless page.is_index %}
-        <nav aria-label="breadcrumb" id="breadcrumb">
-            <ul class="breadcrumb">
-                <li><a href="../">Home</a></li>
-                <li><a href="/vestige/">Vestige</a></li>
-                {% if page.is_index != true %}
-                    <li><a href="{{ post.url | relative_url }}">Chapter {{ page.chapter }}: {{ page.title }}</a></li>
-                {% endif %}
-            </ul>
-        </nav>
-    {% endunless %}
+{% unless page.is_index %}
+<nav aria-label="breadcrumb" id="breadcrumb">
+    <ul class="breadcrumb">
+        <li><a href="../">Home</a></li>
+        <li><a href="/vestige/">Vestige</a></li>
+        {% if page.is_index != true %}
+        <li><a href="{{ post.url | relative_url }}">Chapter {{ page.chapter }}: {{ page.title }}</a></li>
+        {% endif %}
+    </ul>
+ </nav>
+{% endunless %}
 {% endif %}
 <article class="post">
-  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-  {{ page.content }}
+	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+	{{ page.content }}
 </article>
 <hr>
 <nav id="chapterNav" aria-label="Chapter navigation">
-  <ul>
-    {% assign sorted_vestige = site.vestige | sort: 'chapter' %}
-    {% for post in sorted_vestige %}
-      {% if post.url == page.url %}
-        {% unless forloop.first %}
-          {% assign previous_index = forloop.index0 | minus: 1 %}
-          {% assign previous_post = sorted_vestige[previous_index] %}
-          <li id="previous"><a href="{{ previous_post.url | relative_url }}">Previous</a></li>
-        {% endunless %}
-        {% unless forloop.last %}
-          {% assign next_index = forloop.index0 | plus: 1 %}
-          {% assign next_post = sorted_vestige[next_index] %}
-          <li id="next"><a href="{{ next_post.url | relative_url }}">Next</a></li>
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
+	<ul>
+		{% assign sorted_vestige = site.vestige | sort: 'chapter' %}
+		{% for post in sorted_vestige %}
+		{% if post.url == page.url %}
+		{% unless forloop.first %}
+		{% assign previous_index = forloop.index0 | minus: 1 %}
+		{% assign previous_post = sorted_vestige[previous_index] %}
+    	<li id="previous"><a href="{{ previous_post.url | relative_url }}">Previous</a></li>
+		{% endunless %}
+		{% unless forloop.last %}
+		{% assign next_index = forloop.index0 | plus: 1 %}
+		{% assign next_post = sorted_vestige[next_index] %}
+    	<li id="next"><a href="{{ next_post.url | relative_url }}">Next</a></li>
+		{% endunless %}
+		{% endif %}
+		{% endfor %}
   </ul>
 </nav>
