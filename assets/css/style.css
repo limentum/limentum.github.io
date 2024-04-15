@@ -121,7 +121,7 @@ nav#social {
     align-items: center;
     justify-content: space-evenly;
 }
-    #siteInfo #logo {
+    #siteInfo #logo, #siteInfo #logo img {
         margin: 0.5rem;
         height: 10vw;
         width: auto;
