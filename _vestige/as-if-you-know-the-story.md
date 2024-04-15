@@ -41,7 +41,7 @@ While looking at my phone again, someone new walks up to the till right next to 
 
 I instantly recognize her. Ms Addams, the therapist I started seeing in grade eleven. I didn't really think I needed to see a therapist back then, but my parents made me choose between that or weekly visits to the school guidance counselor who was notorious for preaching confidentiality and then telling the parents basically everything anyway. She turned out to be cool, at least to sixteen-year-old me, and I kept seeing her up until I left for university, although infrequently.
 
-"Oh, Allison! I'm in town visiting everybody for spring break." I replied, in the sincerest voice I could conjure.
+"Oh, Allison! I'm in town visiting everybody for spring break," I replied, in the sincerest voice I could conjure.
 
 Her eyes widened, "Everybody? As in everybody everybody?" she asked, a hint of concern in her voice.
 
