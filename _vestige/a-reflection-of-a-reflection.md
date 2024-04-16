@@ -85,7 +85,7 @@ Shae looked up from her phone, and leaned forward towards the front of the car, 
 
 "Believe me, if I had the option to never talk to them again except for the occasional visit every few years, I would." I raise my voice a few octaves, "Butttt they areeee paying for my tuition and there's not a chance in hell that I could afford it myself without going into thousands of dollars of debt, so I can deal with their casual-just-about-every-ism for the time being." God, this was not the conversation I was hoping to have while stuck in a car with Shae and Liam.
 
-"...I feel like this is something you should have told me, like, when you first proposed the trip." he responded, smirking.
+"...I feel like this is something you should have told me, like, when you first proposed the trip," he responded, smirking.
 
 "Oh, we'll be fine," I chuckle, "Besides, that's only gonna take up like one evening out of the days, I only really wanted to visit so we could see the guys."
 
