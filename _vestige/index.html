@@ -6,31 +6,31 @@ chapter: 0
 last_updated: 2024-04-10
 ---
 <nav aria-label="breadcrumb" id="breadcrumb">
-    <ul class="breadcrumb">
-        <li><a href="../">Home</a></li>
-        <li><a href="../vestige/">Vestige</a></li>
-    </ul>
+	<ul class="breadcrumb">
+    	<li><a href="../">Home</a></li>
+    	<li><a href="../vestige/">Vestige</a></li>
+	</ul>
 </nav>
 <small id="useless" aria-hidden="true">a vestige of the puzzle, a fragment of the whole. each unique, imperfect, imperatively connected.</small>
 <nav class="post" id="tableOfContents" aria-label="Vestige chapter navigation">
-  <table>
-    <caption>Table of Contents</caption>
-    <thead>
-      <tr>
-        <th><abbr title="Chapter Number">#</abbr></th>
-        <th>Chapter</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% assign sorted_vestige = site.vestige | sort: 'chapter' %}
-      {% for post in sorted_vestige %}
-        {% unless post.is_index %}
-          <tr>
-            <td>{{ post.chapter }}</td>
-            <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
-          </tr>
-        {% endunless %}
-      {% endfor %}
-    </tbody>
-  </table>
+	<table>
+		<caption>Table of Contents</caption>
+		<thead>
+			<tr>
+				<th><abbr title="Chapter Number">#</abbr></th>
+				<th>Chapter</th>
+			</tr>
+    	</thead>
+    	<tbody>
+		{% assign sorted_vestige = site.vestige | sort: 'chapter' %}
+		{% for post in sorted_vestige %}
+		{% unless post.is_index %}
+			<tr>
+				<td>{{ post.chapter }}</td>
+				<td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+			</tr>
+		{% endunless %}
+		{% endfor %}
+		</tbody>
+	</table>
 </nav>
