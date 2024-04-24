@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Limentum Projects
 ---
 ## Welcome to my page!
 
