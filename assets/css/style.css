@@ -5,6 +5,7 @@
     --accents: #6b3eff;
     --text-color: #fff;
     --background-color: #000;
+    --lightblack: #333;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: min(max(0.76rem, 1.05vw), 3rem);
     text-underline-offset: 0.12rem;
@@ -16,11 +17,15 @@ body.light-mode {
     body.light-mode #sun {
         filter: none;
     }
-#sun {
-    filter: invert(1);
-    height: 10vw;
-    width: auto;
+button {
+    background-color: unset;
+    padding: 0;
 }
+    #sun {
+        filter: invert(1);
+        height: 5vh;
+        width: auto;
+    }
 a {
     color: var(--text-color);
 }
@@ -47,9 +52,11 @@ main {
         padding: 0;
         margin-right: 1.5rem;
         list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
         #siteHeader nav ul li, #siteFooter div #footerNav li {
-            display: inline;
             margin: 0;
         }
             #siteHeader nav ul li a, #siteFooter div #footerNav li a {
@@ -58,8 +65,8 @@ main {
                 transition: color 0.25s ease, background-color 0.25s ease;
                 border: 2px;
                 border-style: solid;
-                border-color: white;
-                color: white;
+                border-color: var(--text-color);
+                color: var(--text-color);
                 text-decoration: none;
                 font-size: 1.2rem;
                 padding: 0.5rem;
@@ -67,8 +74,8 @@ main {
             }
             #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
                 text-decoration: underline;
-                background-color: white;
-                color: black;
+                background-color: var(--text-color);
+                color: var(--background-color);
             }
             #siteHeader nav ul li a#currentPage {
                 border-color: var(--primary-color);
@@ -167,7 +174,7 @@ nav#social {
     .hamburger-menu .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: var(--text-color);
     }
 hr {
     margin: 0;
@@ -193,27 +200,28 @@ hr {
         display: flex;
         margin: 0 1rem;
     }
-    #headerNav {
+    #siteHeader nav#headerNav ul {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         position: fixed;
         top: 0;
         left: -100%;
         height: 100%;
         width: min-content;
-        background-color: var(--lightblack);
+        background-color: var(--background-color);
     }
-
-    #siteHeader #headerNav {
+    #siteHeader #headerNav ul {
         opacity: 0;
         transition: opacity 0.3s ease;
     }
-
     #siteHeader #headerNav ul li a {
         text-align: center;
     }
-
-    #siteHeader #menu-toggle:checked ~ #headerNav {
+    button {
+        margin: 0 auto;
+    }
+    #siteHeader #menu-toggle:checked ~ #headerNav ul {
         opacity: 1;
         left: 0;
     }
@@ -230,6 +238,10 @@ hr {
         margin-right: 0;
         margin-top: 0;
     }
+        #siteHeader nav ul li {
+            margin-top: 1rem;
+            width: 20vw;
+        }
     #siteHeader nav ul li a {
         padding: 1em;
     }
