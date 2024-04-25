@@ -113,12 +113,12 @@ nav#social {
             }
             nav#social ul li a:hover {
                 text-decoration: underline;
-                background-color: white;
-                color: black;
+                background-color: var(--text-color);
+                color: var(--background-color);
             }
             nav#social ul li a:focus {
-                background-color: white;
-                color: black;
+                background-color: var(--text-color);
+                color: var(--background-color);
             }
             nav#social ul li a#currentPage {
                 border-color: var(--primary-color);
@@ -153,7 +153,7 @@ nav#social {
     position: sticky;
     bottom: 0;
     z-index: 100;
-    background-color: black;
+    background-color: var(--background-color);
 }
     footer#siteFooter > div > nav#footerNav > ul > li > a {
         border: 2px solid var(--primary-color);
