@@ -52,13 +52,23 @@ window.onload = function() {
 			// If the body has the class 'dark-mode', switch to light mode
 			body.classList.remove('dark-mode');
 			body.classList.add('light-mode');
-		} else if (body.classList.contains('light-mode')) {
-			// If the body has the class 'light-mode', switch to dark mode
+			localStorage.setItem('theme', 'light'); // Store the user's preference
+		} else {
+			// If the body has the class 'light-mode' or no class, switch to dark mode
 			body.classList.remove('light-mode');
 			body.classList.add('dark-mode');
-		} else {
-			// If the body has neither 'dark-mode' nor 'light-mode', apply 'light-mode'
+			localStorage.setItem('theme', 'dark'); // Store the user's preference
+		}
+	});
+	
+	// When the page loads, apply the user's preference
+	window.addEventListener('load', function() {
+		var theme = localStorage.getItem('theme'); // Get the stored preference
+		var body = document.body;
+		if (theme === 'light') {
 			body.classList.add('light-mode');
+		} else {
+			body.classList.add('dark-mode');
 		}
 	});
 };
