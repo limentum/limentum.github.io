@@ -23,6 +23,7 @@ body.light-mode {
         border-color: var(--tertiary-color);
     }
 #sun {
+    display: block;
     filter: invert(1);
     height: 5vh;
     width: auto;
