@@ -8,6 +8,7 @@
     --text-color: #fff;
     --background-color: #000;
     --lightblack: #333;
+    --lightgrey: lightgrey;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: min(max(0.76rem, 1.05vw), 3rem);
     text-underline-offset: 0.12rem;

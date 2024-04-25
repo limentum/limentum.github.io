@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 a:link {
-    color: lightskyblue;
+    color: var(--secondary-color);
 }
 a:hover {
-    color: lightgray;
+    color: var(--lightgrey);
 }
 /* for my quirky quips */
 #useless {
@@ -108,7 +108,7 @@ ul.breadcrumb {
   background-color: var(--lightblack);
 }
 body.light-mode ul.breadcrumb {
-    background-color: var(--accents);
+    background-color: var(--lightgrey);
 }
     /* Display list items side by side */
     ul.breadcrumb li {
