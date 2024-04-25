@@ -49,6 +49,9 @@ main {
 #themeToggle {
     flex: 1;
 }
+    #themeToggle a {
+        border: unset;
+    }
 #siteHeader, #siteFooter div {
     width: 100%;
     margin: 0;
@@ -81,6 +84,7 @@ main {
                 font-size: 1.2rem;
                 padding: 0.5rem;
                 line-height: 2rem;
+                overflow: hidden;
             }
             #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
                 text-decoration: underline;
