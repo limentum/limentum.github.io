@@ -180,7 +180,7 @@ hr {
     margin: 0;
     border: 0;
     border-top: 0.1rem solid #000;
-    border-color: white;
+    border-color: var(--text-color);
 }
 .skip-link {
     position: absolute;
