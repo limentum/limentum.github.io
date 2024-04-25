@@ -25,6 +25,7 @@ body.light-mode {
     }
 #sun {
     display: block;
+    vertical-align: middle;
     filter: invert(1);
     width: 50px;
     height: auto;
@@ -74,9 +75,7 @@ main {
                 vertical-align: middle;
                 box-sizing: content-box; /* Make sure both are content-box */
                 transition: color 0.25s ease, background-color 0.25s ease;
-                border: 2px;
-                border-style: solid;
-                border-color: var(--text-color);
+                border: 2px solid var(--text-color);
                 color: var(--text-color);
                 text-decoration: none;
                 font-size: 1.2rem;
