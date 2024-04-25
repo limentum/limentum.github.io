@@ -54,6 +54,9 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+#siteHeader {
+    height: 10vh;
+}
     #siteHeader nav ul, #siteFooter div #footerNav ul {
         padding: 0;
         margin-right: 1.5rem;
@@ -222,6 +225,7 @@ hr {
         transition: opacity 0.3s ease;
     }
     #siteHeader #headerNav ul li a {
+        display: block;
         text-align: center;
     }
     #siteHeader #menu-toggle:checked ~ #headerNav ul {
