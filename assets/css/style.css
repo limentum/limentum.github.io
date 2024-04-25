@@ -23,6 +23,9 @@ body.light-mode {
     body.light-mode hr {
         border-color: var(--tertiary-color);
     }
+    body.light-mode #siteHeader nav ul li a:hover, body.light-mode #siteFooter div #footerNav li a:hover, body.light-mode #siteHeader nav ul li a:focus, body.light-mode #siteHeader nav li a:active, body.light-mode #siteFooter div #footerNav li a:focus, body.light-mode #siteFooter div #footerNav li a:active {
+        filter: invert(1);
+    }
 #sun {
     display: inline-block;
     vertical-align: middle;
@@ -87,6 +90,7 @@ main {
                 overflow: hidden;
             }
             #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
+                filter: none;
                 text-decoration: underline;
                 background-color: var(--text-color);
                 color: var(--background-color);
