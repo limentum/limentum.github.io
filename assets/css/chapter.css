@@ -10,7 +10,7 @@ a:hover {
     display: none;
 }
 .post > h2 > a {
-    color: white;
+    color: var(--textcolor);
 }
 article.post p span.altFont {
     font-family: "Reenie Beanie", cursive;
@@ -44,8 +44,8 @@ nav#chapterNav ul {
 }
 
 nav#chapterNav ul li {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid var(--textcolor);
+    border-right: 1px solid var(--textcolor);
 }
     nav#chapterNav ul li a {
         display: block;
@@ -53,15 +53,15 @@ nav#chapterNav ul li {
         font-size: 1rem;
         padding: 1.5rem;
         text-decoration: none;
-        color: white;
+        color: var(--textcolor);
     }
     nav#chapterNav ul li a:hover {
-        color: black;
-        background-color: white;
+        color: var(--backgroundcolor);
+        background-color: var(--textcolor);
     }
     nav#chapterNav ul li a:focus {
-        color: black;
-        background-color: white;
+        color: var(--backgroundcolor);
+        background-color: var(--textcolor);
     }
 /* centers content and gives it room to breathe */
 .center {
@@ -93,7 +93,7 @@ nav#chapterNav ul li {
     #tableOfContents table th, #tableOfContents table td {
         text-align: left;
         border: 1px solid;
-        color: white;
+        color: var(--textcolor);
         padding-left: 0.5rem;
     }
     table tbody tr td a {
@@ -107,6 +107,9 @@ ul.breadcrumb {
   list-style: none;
   background-color: var(--lightblack);
 }
+body.light-mode ul.breadcrumb {
+    background-color: var(--accents);
+}
     /* Display list items side by side */
     ul.breadcrumb li {
     display: inline;
@@ -114,7 +117,7 @@ ul.breadcrumb {
     /* Add a slash symbol (/) before/behind each list item */
     ul.breadcrumb li+li:before {
     padding: 0.5rem;
-    color: white;
+    color: var(--textcolor);
     content: "/\00a0";
     }
         /* Add a color to all links inside the list */
