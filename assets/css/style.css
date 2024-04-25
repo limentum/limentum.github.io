@@ -24,7 +24,7 @@ body.light-mode {
         border-color: var(--tertiary-color);
     }
 #sun {
-    display: block;
+    display: inline-block;
     vertical-align: middle;
     filter: invert(1);
     width: 50px;
