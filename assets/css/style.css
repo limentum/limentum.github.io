@@ -25,7 +25,7 @@ body.light-mode {
 #sun {
     display: block;
     filter: invert(1);
-    height: 5vh;
+    height: 100%;
     width: auto;
 }
 a {
@@ -41,6 +41,9 @@ body {
 }
 main {
     margin: 1vw 2vw 0 2vw;
+}
+#themeToggle {
+    flex: 1;
 }
 #siteHeader, #siteFooter div {
     width: 100%;
