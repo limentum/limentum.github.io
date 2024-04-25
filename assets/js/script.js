@@ -60,15 +60,15 @@ window.onload = function() {
 			localStorage.setItem('theme', 'dark'); // Store the user's preference
 		}
 	});
-	
-	// When the page loads, apply the user's preference
-	window.addEventListener('load', function() {
-		var theme = localStorage.getItem('theme'); // Get the stored preference
-		var body = document.body;
-		if (theme === 'light') {
-			body.classList.add('light-mode');
-		} else {
-			body.classList.add('dark-mode');
-		}
-	});
 };
+
+// When the page loads, apply the user's preference
+window.addEventListener('DOMContentLoaded', function() {
+    var theme = localStorage.getItem('theme'); // Get the stored preference
+    var body = document.body;
+    if (theme === 'light') {
+        body.classList.add('light-mode');
+    } else {
+        body.classList.add('dark-mode');
+    }
+});
