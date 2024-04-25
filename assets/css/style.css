@@ -30,7 +30,6 @@ body.light-mode {
     height: auto;
     max-width: 100%;
     max-height: 100%;
-    width: auto;
 }
 a {
     color: var(--text-color);
