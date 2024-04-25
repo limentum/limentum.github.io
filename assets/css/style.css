@@ -2,7 +2,9 @@
 :root {
     --primary-color: #e46e55;
     --secondary-color: #84cab7;
-    --accents: #6b3eff;
+    --tertiary-color: #493657;
+    --quaternary-color: #ffd670;
+    --accents: #cfbae1;
     --text-color: #fff;
     --background-color: #000;
     --lightblack: #333;
@@ -17,15 +19,14 @@ body.light-mode {
     body.light-mode #sun {
         filter: none;
     }
-button {
-    background-color: unset;
-    padding: 0;
-}
-    #sun {
-        filter: invert(1);
-        height: 5vh;
-        width: auto;
+    body.light-mode hr {
+        border-color: var(--tertiary-color);
     }
+#sun {
+    filter: invert(1);
+    height: 5vh;
+    width: auto;
+}
 a {
     color: var(--text-color);
 }
@@ -180,7 +181,7 @@ hr {
     margin: 0;
     border: 0;
     border-top: 0.1rem solid #000;
-    border-color: var(--text-color);
+    border-color: var(--accents);
 }
 .skip-link {
     position: absolute;
@@ -217,9 +218,6 @@ hr {
     }
     #siteHeader #headerNav ul li a {
         text-align: center;
-    }
-    button {
-        margin: 0 auto;
     }
     #siteHeader #menu-toggle:checked ~ #headerNav ul {
         opacity: 1;
