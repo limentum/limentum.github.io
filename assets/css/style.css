@@ -52,7 +52,7 @@ main {
 #themeToggle {
     flex: 1;
 }
-    #themeToggle a {
+    nav#headerNav ul li#themeToggle a {
         border: unset;
     }
 #siteHeader, #siteFooter div {
