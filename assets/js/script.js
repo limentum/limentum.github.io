@@ -44,4 +44,21 @@ window.onload = function() {
 		hamburgerMenu.setAttribute('aria-expanded', 'false');
 	  }
 	});
+	
+	document.getElementById('themeToggle').addEventListener('click', function(event) {
+		event.preventDefault(); // Prevent the default action
+		var body = document.body;
+		if (body.classList.contains('dark-mode')) {
+			// If the body has the class 'dark-mode', switch to light mode
+			body.classList.remove('dark-mode');
+			body.classList.add('light-mode');
+		} else if (body.classList.contains('light-mode')) {
+			// If the body has the class 'light-mode', switch to dark mode
+			body.classList.remove('light-mode');
+			body.classList.add('dark-mode');
+		} else {
+			// If the body has neither 'dark-mode' nor 'light-mode', apply 'light-mode'
+			body.classList.add('light-mode');
+		}
+	});
 };
