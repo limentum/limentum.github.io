@@ -54,6 +54,7 @@ main {
     flex: 1;
 }
     nav#headerNav ul li#themeToggle a {
+        display: inline-block;
         border: unset;
     }
 #siteHeader, #siteFooter div {
