@@ -90,7 +90,7 @@ main {
                 overflow: hidden;
             }
             #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
-                filter: none;
+                filter: unset;
                 text-decoration: underline;
                 background-color: var(--text-color);
                 color: var(--background-color);
