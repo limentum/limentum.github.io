@@ -56,6 +56,7 @@ main {
     nav#headerNav ul li#themeToggle a {
         display: inline-block;
         border: unset;
+        padding: 0;
     }
 #siteHeader, #siteFooter div {
     width: 100%;
