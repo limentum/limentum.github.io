@@ -25,6 +25,7 @@ body.light-mode {
     }
     body.light-mode #siteHeader nav ul li a:hover, body.light-mode #siteFooter div #footerNav li a:hover, body.light-mode #siteHeader nav ul li a:focus, body.light-mode #siteHeader nav li a:active, body.light-mode #siteFooter div #footerNav li a:focus, body.light-mode #siteFooter div #footerNav li a:active {
         filter: invert(1);
+        background-color: var(--background-color);
     }
 #sun {
     display: inline-block;
@@ -91,7 +92,8 @@ main {
             }
             #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
                 filter: unset;
-                text-decoration: underline;            
+                text-decoration: underline;
+                background-color: var(--text-color);      
             }
             #siteHeader nav ul li a#currentPage {
                 border-color: var(--primary-color);
