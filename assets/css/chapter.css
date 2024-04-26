@@ -110,6 +110,9 @@ ul.breadcrumb {
 body.light-mode ul.breadcrumb {
     background-color: var(--lightgrey);
 }
+    body.light-mode ul.breadcrumb li a {
+        color: var(--textcolor);
+    }
     /* Display list items side by side */
     ul.breadcrumb li {
     display: inline;
