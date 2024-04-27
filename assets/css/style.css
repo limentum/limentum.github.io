@@ -84,7 +84,7 @@ main {
             #siteHeader nav ul li a, #siteFooter div #footerNav li a {
                 vertical-align: middle;
                 box-sizing: content-box; /* Make sure both are content-box */
-                transition: color 0.25s ease, background-color 0.25s ease;
+                transition: color 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
                 border: 2px solid var(--text-color);
                 color: var(--text-color);
                 text-decoration: none;
