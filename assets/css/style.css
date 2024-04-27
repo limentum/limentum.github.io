@@ -180,7 +180,11 @@ nav#social {
 }
     footer#siteFooter > div > nav#footerNav > ul > li > a {
         border: 2px solid var(--primary-color);
-        color: var(--secondary-color);
+        color: var(--accents);
+    }
+    body.light-mode footer#siteFooter > div > nav#footerNav > ul > li > a {
+        border: 2px solid var(--tertiary-color);
+        color: var(--text-color);
     }
 #menu-toggle {
     display: none;
