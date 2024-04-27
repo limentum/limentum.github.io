@@ -51,6 +51,7 @@ main {
 }
 #themeToggle {
     flex: 1;
+    margin: 0.25rem;
 }
     nav#headerNav ul li#themeToggle a {
         display: inline-block;
