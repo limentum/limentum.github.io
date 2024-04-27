@@ -17,11 +17,11 @@ body.light-mode {
     --text-color: #000;
     --background-color: #fff;
 }
-    body.light-mode #sun {
-        filter: none;
-    }
     body.light-mode hr {
         border-color: var(--tertiary-color);
+    }
+    body.light-mode nav#headerNav ul li#themeToggle a {
+        filter: none;
     }
     body.light-mode #siteHeader nav ul li a:hover, body.light-mode #siteFooter div #footerNav li a:hover, body.light-mode #siteHeader nav ul li a:focus, body.light-mode #siteHeader nav li a:active, body.light-mode #siteFooter div #footerNav li a:focus, body.light-mode #siteFooter div #footerNav li a:active {
         filter: invert(1);
