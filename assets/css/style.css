@@ -179,12 +179,11 @@ nav#social {
     background-color: var(--background-color);
 }
     footer#siteFooter > div > nav#footerNav > ul > li > a {
-        border: 2px solid var(--primary-color);
-        color: var(--accents);
+        border: 2px solid var(--quaternary-color);
+        color: var(--text-color);
     }
     body.light-mode footer#siteFooter > div > nav#footerNav > ul > li > a {
         border: 2px solid var(--tertiary-color);
-        color: var(--text-color);
     }
 #menu-toggle {
     display: none;
