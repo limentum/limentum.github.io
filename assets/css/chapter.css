@@ -55,13 +55,9 @@ nav#chapterNav ul li {
         text-decoration: none;
         color: var(--textcolor);
     }
-    nav#chapterNav ul li a:hover {
-        color: var(--backgroundcolor);
-        background-color: var(--textcolor);
-    }
-    nav#chapterNav ul li a:focus {
-        color: var(--backgroundcolor);
-        background-color: var(--textcolor);
+    nav#chapterNav ul li a:hover, nav#chapterNav ul li a:focus, nav#chapterNav ul li a:active {
+        color: var(--background-color);
+        background-color: var(--text-color);
     }
 /* centers content and gives it room to breathe */
 .center {
