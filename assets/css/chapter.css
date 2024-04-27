@@ -42,10 +42,9 @@ nav#chapterNav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav#chapterNav ul li {
-    border-left: 1px solid var(--textcolor);
-    border-right: 1px solid var(--textcolor);
+    border-left: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
 }
     nav#chapterNav ul li a {
         display: block;
