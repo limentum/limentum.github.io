@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Limentum Projects
+is_index: true
 ---
 ## Welcome to my page!
 
