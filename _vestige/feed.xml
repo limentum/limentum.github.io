@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<!--Atom Feed-->
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Limentum - Vestige</title>
+    <subtitle>a reflection of a reflection of a reflec</subtitle>
+    <link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" />
+    <link href="{{ site.url }}" />
+    <updated>{{ site.time | date_to_rfc3339 }}</updated>
+    <id>{{ site.url }}</id>
+    {% assign sorted_posts = site.vestige | sort: 'chapter' %}
+    {% for post in sorted_posts %}
+    {% unless is_index == true %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" />
+        <updated>{{ post.last_updated | date_to_rfc3339 }}</updated>
+        <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endunless %}
+    {% endfor %}
+</feed>
