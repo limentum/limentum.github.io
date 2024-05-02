@@ -10,9 +10,9 @@ layout: null
     <link href="{{ site.url }}" />
     <updated>{{ site.time | date_to_rfc3339 }}</updated>
     <id>{{ site.url }}</id>
-    {% assign sorted_posts = site.vestige | sort: 'chapter' %}
-    {% for post in sorted_posts %}
-    {% unless post.is_index == true %}
+    {%- assign sorted_posts = site.vestige | sort: 'chapter' -%}
+    {%- for post in sorted_posts -%}
+    {%- unless post.is_index == true -%}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" />
@@ -20,6 +20,6 @@ layout: null
         <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
-    {% endunless %}
-    {% endfor %}
+    {%- endunless -%}
+    {%- endfor -%}
 </feed>
