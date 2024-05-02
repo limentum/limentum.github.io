@@ -1,8 +1,8 @@
 ---
 layout: null
 ---
-<!--Atom Feed-->
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Atom Feed-->
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Limentum - Vestige</title>
     <subtitle>a reflection of a reflection of a reflec</subtitle>
@@ -12,7 +12,7 @@ layout: null
     <id>{{ site.url }}</id>
     {% assign sorted_posts = site.vestige | sort: 'chapter' %}
     {% for post in sorted_posts %}
-    {% unless is_index == true %}
+    {% unless post.is_index == true %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" />
