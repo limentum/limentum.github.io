@@ -3,7 +3,7 @@ layout: vestige
 title: A Reflection of a Reflection
 chapter: 1
 date: 2017-03-11
-last_updated: 2024-04-13
+last_updated: 2024-05-03
 ---
 <small id="useless" aria-hidden="true">It's been a while since I've written anything. I've been busy with work, and I've been busy with life. I've been busy with everything but writing. I've been busy with everything but myself. I've been busy with everything but my own thoughts. I've been busy with everything but my own feelings. I've been busy with everything but my own life. I've been busy with everything but my own reflection.</small>
 <figure markdown="1" aria-label="Seven Swans by Sufjan Stevens">
@@ -123,7 +123,7 @@ I could tell we were nearing the town. The highway starts getting a bit of an in
 <div class="center">
 <p><b><i>Vestige   5 miles</i></b></p>
 </div>
-Around the highway bend, the sign was placed before, I could finally see the lake in the distance. Half of it was surrounded by mountains, and the other half was slightly hilly and somewhat forested. I kind of forgot how much I loved the scenery around here, it gives off the same energy you'd find at a folk concert in the seventies, in a way. The water in the lake is almost entirely clear and reflecting the bright sun directly into my eyes. Great, especially considering the road is right next to the lake with 'guard rails' that are probably on the brink of collapse. I lean over and nudge Liam with my elbow, he opens his eyes slowly. He stretches his arms, because of what I assume would be an uncomfortable sleeping position.
+Around the highway bend, the sign was placed before, I could finally see the lake in the distance. Half of it was surrounded by mountains, and the other half was slightly hilly and forested. I forgot how much I loved the scenery around here, it gives off the same feeling you'd expect at a folk concert in the seventies, in a way. The water in the lake is almost entirely clear and reflecting the bright sun directly into my eyes. Great, especially considering the road is right next to the lake with 'guard rails' that are probably on the brink of collapse. I lean over and nudge Liam with my elbow, he opens his eyes slowly. He stretches his arms, because of what I assume would be an uncomfortable sleeping position.
 
 "Are we almost there?" he asks, mid-yawn.
 
@@ -513,7 +513,7 @@ Alex lets out a sigh, stifling a laugh. "You really could have said anything, an
 
 "Sure thing!" he sits down on one of the benches and pulls out his phone.
 
-I start walking back to the cabin. The grass is still somewhat frozen, crunching underneath my shoes. There's still a bit of ice spotted around from the winter. It's dark out, but still easy enough to see my way to the door. As I walk up the steps, the wooden planks underneath me creak from the pressure. I take my shoes off outside, so I don't track snow and dirt in the cabin, and step inside.
+I start walking back to the cabin. The grass is somewhat frozen, crunching underneath my shoes. There's still a bit of ice spotted about from the winter. It's dark out, but easy enough to see my way to the door. As I walk up the steps, the wooden planks underneath me creak from the pressure. I take my shoes off outside, so I don't track snow and dirt in the cabin, and step inside.
 
 Elliot is putting on his coat and boots, Shae is in her room, and I assume that Liam is still in the bedroom.
 
