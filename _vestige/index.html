@@ -22,15 +22,15 @@ last_updated: 2024-05-04
 			</tr>
     	</thead>
     	<tbody>
-		{% assign sorted_vestige = site.vestige | sort: 'chapter' %}
-		{% for post in sorted_vestige %}
-		{% unless post.is_index %}
+		{%- assign sorted_vestige = site.vestige | sort: 'chapter' -%}
+		{%- for post in sorted_vestige -%}
+		{%- unless post.is_index -%}
 			<tr>
 				<td>{{ post.chapter }}</td>
 				<td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
 			</tr>
-		{% endunless %}
-		{% endfor %}
+		{%- endunless -%}
+		{%- endfor -%}
 		</tbody>
 	</table>
 </nav>
