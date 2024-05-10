@@ -31,21 +31,8 @@ collections:
     permalink: /vestige/:title
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - base64
-
-
-jekyll-feed:
-  posts:
-    limit: 10
-  collections:
-    vestige:
-      output: true
-      limit: 10
-  rss_path: rss.xml
-  atom_path: feed.xml
-  json_path: feed.json
 
 kramdown:
   input: GFM
@@ -54,19 +41,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-
-jekyll-minifier:
-  remove_spaces_inside_tags: true   # Remove spaces inside HTML tags
-  js_minify: true                   # Minify JavaScript
-  css_minify: true                  # Minify CSS
-  tidy_html: true                   # Tidy (prettify) HTML
-  remove_multi_spaces: true         # Remove multiple consecutive spaces
-  remove_comments: true             # Remove HTML comments
-  remove_intertag_spaces: true      # Remove inter-tag spaces
-  remove_quotes: true               # Remove quotes from tag attributes
-  remove_script_attributes: true    # Remove type="text/javascript" from script tags
-  remove_style_attributes: true     # Remove type="text/css" from style tags
-  remove_link_attributes: true      # Remove type="text/css" from link tags
 
 jekyll-seo-tag:
   robots: "index, follow"
