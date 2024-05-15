@@ -50,8 +50,10 @@
     </script>
     <script src="{{ 'assets/js/script.js' | relative_url }}" defer></script>
     <script src="{{ 'assets/js/async.js' | relative_url }}" async></script>
+	{%- if page.collection == 'vestige' or page.collection == 'posts' -%}
 	<link rel="alternate" type="application/atom+xml" title="Limentum - Vestige" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="Limentum - Vestige" href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}">
+	{%- endif -%}
     <link rel="manifest" href="{{ 'manifest.json' | relative_url }}">
     <link rel=me href="https://mastodon.social/@limentum">
 	<link rel="author" href="https://linktr.ee/limentum">
