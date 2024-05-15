@@ -1,16 +1,18 @@
 // Define the name of the current cache
 var APP_PREFIX = 'LmntnPrjcts_';
-var VERSION = 'v_01';
+var VERSION = 'v_02';
 var SITE_CACHE = APP_PREFIX + VERSION;
 var URLS = [
   '/index.html',
   '/assets/css/style.min.css',
   '/assets/css/chapter.min.css',
   '/vestige/index.html',
+  '/assets/images/logo.webp',
   '/assets/images/logo512.png',
   '/assets/images/favicon.ico',
+  '/assets/images/sun.svg',
   '/assets/js/async.js',
-  '/assets/js/script.js',
+  '/assets/js/script.js'
 ];
 
 // The install event
