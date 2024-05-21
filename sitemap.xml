@@ -7,31 +7,31 @@
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
 	</url>
-{% for post in site.posts %}
-{% unless post.no_index == true %}
+{%- for post in site.posts -%}
+{%- unless post.no_index == true -%}
 	<url>
 		<loc>{{ site.url }}{{ post.url }}</loc>
 		<lastmod>{{ post.last_updated | date_to_xmlschema }}</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
-{% endunless %}
-{% endfor %}
+{%- endunless -%}
+{%- endfor -%}
 	<url>
 		<loc>{{ site.url }}/vestige/</loc>
 		<lastmod>{{ site.last_updated | date_to_xmlschema }}</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>
-{% assign sorted_vestige = site.vestige | sort: 'chapter' %}
-{% for post in sorted_vestige %}
-{% unless post.is_index == true %}
+{%- assign sorted_vestige = site.vestige | sort: 'chapter' -%}
+{%- for post in sorted_vestige -%}
+{%- unless post.is_index == true -%}
 	<url>
 		<loc>{{ site.url }}{{ post.url }}</loc>
 		<lastmod>{{ post.last_updated | date_to_xmlschema }}</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
-{% endunless %}
-{% endfor %}
+{%- endunless -%}
+{%- endfor -%}
 </urlset>
