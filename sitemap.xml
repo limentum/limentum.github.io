@@ -8,7 +8,7 @@
 		<priority>1.0</priority>
 	</url>
 {%- for post in site.posts -%}
-{%- unless post.no_index == true -%}
+{%- unless post.is_index == true -%}
 	<url>
 		<loc>{{ site.url }}{{ post.url }}</loc>
 		<lastmod>{{ post.last_updated | date_to_xmlschema }}</lastmod>
