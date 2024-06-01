@@ -58,17 +58,9 @@ nav#chapterNav ul li {
         color: var(--background-color);
         background-color: var(--text-color);
     }
-/* centers content and gives it room to breathe */
-.center {
-    text-align: center;
-    border: 0.1rem double;
-    padding: 1rem 2rem;
-    margin: 1rem auto;
-    width: fit-content;
+article.post .center > p {
+    text-indent: 0;
 }
-    article.post .center > p {
-        text-indent: 0;
-    }
 #tableOfContents {
     line-height: 1.5rem;
     font-size: 1rem;
