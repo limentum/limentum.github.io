@@ -3,7 +3,7 @@ layout: default
 title: The Ascended - A Minecraft Server
 date: 2024-05-20
 ---
-# The Ascended - A Java Minecraft Server
+# The Ascended - A Minecraft Server
 ## IP: play.limentum.com
 Accessible through the Java Edition of Minecraft.
 
