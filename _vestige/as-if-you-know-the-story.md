@@ -53,7 +53,7 @@ Her eyes widened, "Everybody? As in everybody everybody?" she asked, a hint of c
 
 "Liam? Is that-" she starts, but I cut her off.
 
-"Friend from university. I asked him to come with me, probably against my better judgement," I say, jokingly.
+"Friend from school. I asked him to come with me, probably against my better judgement," I say, jokingly.
 
 "Ah, ‘friend', right," she said, laughing. Allison was the one who helped me make the apparently obvious discovery that was my sexuality, so I was usually comfortable talking about that stuff with her.
 
@@ -267,7 +267,7 @@ Really?
 
 I didn't really know what to follow up with after that, so I opted to stew in my own mild embarrassment for a while as we finished eating our breakfast. I went to check my phone again, seeing if anybody else had replied to the plans we were making. To my surprise, everyone else was also able to come, which I wasn't expecting to be honest. I let Liam know and set my phone on the blanket. A fair amount of time passed as we sat there, enjoying the moment.
 
-Before I got here, I made it a personal goal to use my phone, and technology in general, a bit less. I didn't tell anybody about that, just cause I thought it was kinda stupid, but I spent way too much time at university on my laptop - most of the time not even doing anything productive. So, I thought of this return to my hometown where they had barely started getting rid of dial up internet at the start of the decade as a good opportunity. Of course, there was no escaping the assignments we had to submit when the break ended, but I was still gonna try.
+Before I got here, I made it a personal goal to use my phone, and technology in general, a bit less. I didn't tell anybody about that, just cause I thought it was kinda stupid, but I spend way too much time on campus using my laptop - most of the time not even doing anything productive. So, I thought of this return to my hometown where they had barely started getting rid of dial up internet at the start of the decade as a good opportunity. Of course, there was no escaping the assignments we had to submit when the break ended, but I was still gonna try.
 
 “Thanks for bringing me here, by the way,” Liam said, suddenly taking me out of my head.
 
