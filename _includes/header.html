@@ -16,7 +16,8 @@
     <nav id="headerNav" aria-label="Header navigation">
         <ul>
             <li><a href="/" {% if page.url == "/" %}id="currentPage"{% endif %}>home</a></li>
-            <li><a href="/vestige/" {% if page.url contains "/obfuscation/" %}id="currentPage"{% endif %}>obfuscation</a></li>
+            <li><a href="/vestige/" {% if page.url contains "/vestige/" %}id="currentPage"{% endif %}>vestige</a></li>
+            <li><a href="/obfuscation/" {% if page.url contains "/obfuscation/" %}id="currentPage"{% endif %}>obfuscation</a></li>
             <li><a href="/minecraft.html" {% if page.url contains "/minecraft" %}id="currentPage"{% endif %}>minecraft</a>
             <li><a href="https://limentum.com">limentum.com</a></li>
             <li><a href="https://linktr.ee/limentum">social links</a></li>
