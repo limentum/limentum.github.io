@@ -1,0 +1,37 @@
+---
+layout: default
+title: obfuscation
+is_index: true
+chapter: 0
+last_updated: 2024-06-24
+---
+<nav aria-label="breadcrumb" id="breadcrumb">
+	<ul class="breadcrumb">
+    	<li><a href="../">Home</a></li>
+    	<li><a href="../obfuscation/">obfuscation</a></li>
+	</ul>
+</nav>
+<small id="useless" aria-hidden="true">an obfuscation of the puzzle, a fragment of the whole. unique, imperfect, imperatively connected.</small>
+<nav class="post" id="tableOfContents" aria-label="obfuscation chapter navigation">
+	<table>
+		<caption>Table of Contents</caption>
+		<thead>
+			<tr>
+				<th><abbr title="Chapter Number">#</abbr></th>
+				<th>Chapter</th>
+			</tr>
+    	</thead>
+    	<tbody>
+		{%- assign sorted_obfuscation = site.obfuscation | sort: 'chapter' -%}
+		{%- for post in sorted_obfuscation -%}
+		{%- unless post.is_index -%}
+			<tr>
+				<td>{{ post.chapter }}</td>
+				<td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+			</tr>
+		{%- endunless -%}
+		{%- endfor -%}
+		</tbody>
+	</table>
+</nav>
+<p class="center"><a href="{{ site.baseurl }}/feeds/obfuscation.xml">Atom Feed</a> / <a href="{{ site.baseurl }}/feeds/obfuscation.rss.xml">RSS Feed</a></p>
