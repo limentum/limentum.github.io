@@ -1,7 +1,10 @@
 _site
 _drafts
+_obfuscation
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 .vscode
+/Users/limentum/Documents/Media/limentum.github.io/feeds/obfuscation.rss.xml
+/Users/limentum/Documents/Media/limentum.github.io/feeds/obfuscation.xml
