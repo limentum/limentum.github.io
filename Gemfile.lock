@@ -54,7 +54,7 @@ GEM
     json-minify (0.0.3)
       json (> 0)
     kramdown (2.4.0)
-      rexml
+      rexml (>= 3.3.6)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -79,7 +79,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
-    webrick (1.8.1)
+    webrick (>= 1.8.2)
 
 PLATFORMS
   arm64-darwin
