@@ -237,6 +237,7 @@ hr {
         display: flex;
         margin: 0 1rem;
         cursor: pointer;
+        z-index: 101; /* Ensure hamburger menu stays on top */
     }
     .hamburger-menu .bar {
         width: 25px;
@@ -256,6 +257,7 @@ hr {
         width: 100%;
         background-color: var(--background-color);
         transition: left 0.3s ease;
+        z-index: 100; /* Ensure sidebar is below the hamburger menu */
     }
     #siteHeader #headerNav ul {
         opacity: 0;
