@@ -236,6 +236,14 @@ hr {
     .hamburger-menu {
         display: flex;
         margin: 0 1rem;
+        cursor: pointer;
+    }
+    .hamburger-menu .bar {
+        width: 25px;
+        height: 3px;
+        background-color: var(--text-color);
+        margin: 4px 0;
+        transition: 0.4s;
     }
     #siteHeader nav#headerNav ul {
         display: flex;
@@ -245,8 +253,9 @@ hr {
         top: 0;
         left: -100%;
         height: 100%;
-        width: min-content;
+        width: 100%;
         background-color: var(--background-color);
+        transition: left 0.3s ease;
     }
     #siteHeader #headerNav ul {
         opacity: 0;
@@ -255,6 +264,8 @@ hr {
     #siteHeader #headerNav ul li a {
         display: block;
         text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
     }
     #siteHeader #menu-toggle:checked ~ #headerNav ul {
         opacity: 1;
@@ -273,16 +284,16 @@ hr {
         margin-right: 0;
         margin-top: 0;
     }
-        #siteHeader nav ul li {
-            margin-top: 1rem;
-            width: 20vw;
-        }
+    #siteHeader nav ul li {
+        margin-top: 1rem;
+        width: 100%;
+    }
     #siteHeader nav ul li a {
         padding: 1em;
     }
     #bandcampPlayer {
-        width: 325px;
-        height: 786px;
+        width: 100%;
+        height: auto;
     }
     #homeLink {
         pointer-events: none;
