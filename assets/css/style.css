@@ -56,6 +56,9 @@ main {
     flex: 1;
     margin: 0.25rem;
 }
+#themeToggle.force-repaint {
+    display: inline-block; /* Any property that forces a re-render */
+}
     #themeToggle a {
         display: inline-block;
         padding: 0.5rem 1rem; /* Adjust padding to match other links */
