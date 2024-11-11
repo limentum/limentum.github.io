@@ -56,12 +56,26 @@ main {
     flex: 1;
     margin: 0.25rem;
 }
-    nav#headerNav ul li#themeToggle a {
+    #themeToggle a {
         display: inline-block;
-        border: unset;
-        padding: 0;
-        filter: invert(1);
+        padding: 0.5rem 1rem; /* Adjust padding to match other links */
+        border: 2px solid var(--text-color); /* Add border to match other links */
+        color: var(--text-color); /* Set text color */
+        text-decoration: none; /* Remove underline */
+        transition: color 0.25s ease, background-color 0.25s ease; /* Add transition for hover effect */
     }
+    #themeToggle a:hover, #themeToggle a:focus, #themeToggle a:active {
+        background-color: var(--text-color); /* Match hover background color */
+        color: var(--background-color); /* Match hover text color */
+        text-decoration: underline; /* Match hover underline */
+        filter: none; /* Remove any filters */
+    }
+nav#headerNav ul li#themeToggle a {
+    display: inline-block;
+    border: unset;
+    padding: 0;
+    filter: invert(1);
+}
 #siteHeader, #siteFooter div {
     width: 100%;
     margin: 0;
