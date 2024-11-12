@@ -20,8 +20,7 @@
 
 title: Limentum Projects
 email: contact@limentum.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A collection of projects by Limentum.
+description: A collection of projects by Limentum.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://projects.limentum.com" # the base hostname & protocol for your site, e.g. http://example.com
 website: "https://limentum.com"
