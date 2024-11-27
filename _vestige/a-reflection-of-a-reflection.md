@@ -29,9 +29,9 @@ I will try, I will try, I will try.
 <div class=center>
     {{ page.date | date: "%B %d, %Y" }}
 </div>
-I looked into the bathroom mirror, frowning. My hair looked a combination of messy, and matted. I tended to be a restless sleeper, so it wasn't unusual for me to end up a disaster in the morning. I go hop in one of the dorm showers, taking a moment to comb out the curls and knots. The warm water feels nice, comforting me after the bad dream I had last night. I knew the trip we were planning was stressing the shit out of me.
+I looked into the bathroom mirror, frowning. My hair was a combination of messy, and matted. I tend to be a restless sleeper, often ending up a disaster by the morning. I hop in one of the dorm showers, taking a moment to comb out the curls and knots. The warm water feels nice, comforting me after the bad dream I had last night. I knew the trip we were planning was stressing the hell out of me.
 
-I could hear my group chat with Shae and Liam blowing up. I didn't want to get my phone wet from grabbing it. They were probably trying to figure out when I'd be coming to pick them up, so we could leave. I try to hurry up my showering process, but it still takes a while longer. After turning off the water, I quickly go to dry off and grab my phone to look at the messages.
+I could hear the group chat with Shae and Liam buzzing from my phone. I didn't want to get the phone wet from grabbing it. They were probably trying to figure out when I'd be coming to pick them up, so we could leave. I make an attempt to hurry up the showering process, but it takes a while longer. After turning off the water, I quickly go to dry off and grab my phone to look at the messages.
 
 **Shae**: *you guys almost ready to go? at this rate we're gonna be like an hour behind schedule*
 
