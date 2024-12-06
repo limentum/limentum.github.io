@@ -5,7 +5,7 @@ is_index: true
 ---
 ## Welcome to my page!
 
-It's a bit lonely here for now. But I plan to consistently update it with cool new stuff I'm doing!
+It's a bit lonely here, for now. But, I plan to consistently update it with the cool stuff I'm doing!
 
 I post frequently enough on my main website if you want to be in the know about my latest works.
 
