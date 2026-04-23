@@ -20,7 +20,8 @@ body.light-mode {
     body.light-mode hr {
         border-color: var(--tertiary-color);
     }
-    body.light-mode #themeToggle a {
+    body.light-mode #themeToggle a,
+    body.light-mode #headerNav #themeToggle a {
         filter: none;
     }
     body.light-mode #themeToggle a:active {
