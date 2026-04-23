@@ -10,7 +10,7 @@
     --lightblack: #333;
     --lightgrey: lightgrey;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-size: min(max(0.76rem, 1.05vw), 3rem);
+    font-size: clamp(0.76rem, 1.05vw, 3rem);
     text-underline-offset: 0.12rem;
 }
 body.light-mode {
@@ -20,13 +20,13 @@ body.light-mode {
     body.light-mode hr {
         border-color: var(--tertiary-color);
     }
-    body.light-mode nav#headerNav ul li#themeToggle a {
+    body.light-mode #themeToggle a {
         filter: none;
     }
-    body.light-mode nav#headerNav ul li#themeToggle a:active {
+    body.light-mode #themeToggle a:active {
         background-color: var(--background-color);
     }
-    body.light-mode #siteHeader nav#headerNav ul li a:hover, body.light-mode #siteFooter div #footerNav li a:hover, body.light-mode #siteHeader nav#headerNav ul li a:focus, body.light-mode #siteHeader nav#headerNav li a:active, body.light-mode #siteFooter div #footerNav li a:focus, body.light-mode #siteFooter div #footerNav li a:active {
+    body.light-mode :is(#headerNav, #footerNav) a:is(:hover, :focus, :active) {
         filter: invert(1);
         background-color: var(--background-color);
     }
@@ -67,13 +67,13 @@ main {
         text-decoration: none; /* Remove underline */
         transition: color 0.25s ease, background-color 0.25s ease; /* Add transition for hover effect */
     }
-    #themeToggle a:hover, #themeToggle a:focus, #themeToggle a:active {
+    #themeToggle a:is(:hover, :focus, :active) {
         background-color: var(--text-color); /* Match hover background color */
         color: var(--background-color); /* Match hover text color */
         text-decoration: underline; /* Match hover underline */
         filter: none; /* Remove any filters */
     }
-nav#headerNav ul li#themeToggle a {
+#headerNav #themeToggle a {
     display: inline-block;
     border: unset;
     padding: 0;
@@ -90,7 +90,7 @@ nav#headerNav ul li#themeToggle a {
 #siteHeader {
     height: 10vh;
 }
-    #siteHeader nav ul, #siteFooter div #footerNav ul {
+    :is(#siteHeader, #siteFooter) nav ul {
         padding: 0;
         margin-right: 1.5rem;
         list-style-type: none;
@@ -98,10 +98,10 @@ nav#headerNav ul li#themeToggle a {
         justify-content: space-around;
         align-items: center;
     }
-        #siteHeader nav ul li, #siteFooter div #footerNav li {
+        :is(#siteHeader, #siteFooter) nav li {
             margin: 0;
         }
-            #siteHeader nav ul li a, #siteFooter div #footerNav li a {
+            :is(#siteHeader, #siteFooter) nav a {
                 vertical-align: middle;
                 box-sizing: content-box; /* Make sure both are content-box */
                 transition: color 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
@@ -113,12 +113,12 @@ nav#headerNav ul li#themeToggle a {
                 line-height: 2rem;
                 overflow: hidden;
             }
-            #siteHeader nav ul li a:hover, #siteFooter div #footerNav li a:hover, #siteHeader nav ul li a:focus, #siteHeader nav li a:active, #siteFooter div #footerNav li a:focus, #siteFooter div #footerNav li a:active {
-                filter: unset;
+            :is(#siteHeader, #siteFooter) nav a:is(:hover, :focus, :active) {
                 text-decoration: underline;
                 background-color: var(--text-color);      
+                color: var(--background-color);
             }
-            #siteHeader nav ul li a#currentPage {
+            #siteHeader nav a#currentPage {
                 border-color: var(--primary-color);
             }
 #siteFooter > div > small {
@@ -132,12 +132,12 @@ nav#headerNav ul li#themeToggle a {
     margin: 1rem auto;
     width: fit-content;
 }
-nav#social {
-    border: 1px solid white;
+#social {
+    border: 1px solid #fff;
     margin: 2vw auto;
     padding: 1rem;
 }
-    nav#social ul {
+    #social ul {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -145,31 +145,27 @@ nav#social {
         margin: auto;
         list-style-type: none;
     }
-        nav#social ul li {
+        #social li {
             margin: 0.5rem 0.2rem;
         }
-            nav#social ul li a {
+            #social a {
                 vertical-align: middle;
                 box-sizing: content-box; /* Make sure both are content-box */
                 transition: color 0.25s ease, background-color 0.25s ease;
-                border: 2px;
-                border-style: solid;
-                border-color: white;
-                color: white;
+                border: 2px solid #fff;
+                color: #fff;
                 text-decoration: none;
                 font-size: 1.2rem;
                 padding: 0.5rem;
             }
-            nav#social ul li a:hover {
+            #social a:hover {
                 text-decoration: underline;
+            }
+            #social a:is(:hover, :focus) {
                 background-color: var(--text-color);
                 color: var(--background-color);
             }
-            nav#social ul li a:focus {
-                background-color: var(--text-color);
-                color: var(--background-color);
-            }
-            nav#social ul li a#currentPage {
+            #social a#currentPage {
                 border-color: var(--primary-color);
             }
 #bandcampPlayer {
@@ -192,8 +188,7 @@ nav#social {
 }
     #siteInfo #logo {
         margin: 0.5rem;
-        border: 0.1rem;
-        border-style: solid;
+        border: 0.1rem solid;
     }
     #siteInfo #logo, #siteInfo #logo img {
         display: block;
@@ -206,11 +201,11 @@ nav#social {
     z-index: 100;
     background-color: var(--background-color);
 }
-    footer#siteFooter > div > nav#footerNav > ul > li > a {
+    #footerNav a {
         border: 2px solid var(--quaternary-color);
         color: var(--text-color);
     }
-    body.light-mode footer#siteFooter > div > nav#footerNav > ul > li > a {
+    body.light-mode #footerNav a {
         border: 2px solid var(--tertiary-color);
     }
 #menu-toggle {
@@ -233,8 +228,7 @@ nav#social {
 hr {
     margin: 0;
     border: 0;
-    border-top: 0.1rem solid #000;
-    border-color: var(--accents);
+    border-top: 0.1rem solid var(--accents);
 }
 .skip-link {
     position: absolute;
@@ -263,7 +257,7 @@ hr {
         margin: 4px 0;
         transition: 0.4s;
     }
-    #siteHeader nav#headerNav ul {
+    #headerNav ul {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -273,20 +267,23 @@ hr {
         height: 100%;
         width: 100%;
         background-color: var(--background-color);
-        transition: left 0.3s ease;
+        transition: left 0.3s ease, opacity 0.3s ease;
         z-index: 100; /* Ensure sidebar is below the hamburger menu */
-    }
-    #siteHeader #headerNav ul {
         opacity: 0;
-        transition: opacity 0.3s ease;
+        margin: 0;
     }
-    #siteHeader #headerNav ul li a {
+    #headerNav a {
         display: block;
         text-align: center;
-        padding: 1rem;
+        padding: 1em;
         font-size: 1.5rem;
     }
-    #siteHeader #menu-toggle:checked ~ #headerNav ul {
+    #headerNav li {
+        display: block;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    #menu-toggle:checked ~ #headerNav ul {
         opacity: 1;
         left: 0;
     }
@@ -294,21 +291,7 @@ hr {
         background-color: var(--lightblack);
     }
     #menu-toggle:checked ~ #headerNav ~ .hamburger-menu .bar {
-        background-color: white;
-    }
-    #siteHeader nav#headerNav ul li, #siteHeader nav#headerNav ul li a {
-        display: block;
-    }
-    #siteHeader nav ul {
-        margin-right: 0;
-        margin-top: 0;
-    }
-    #siteHeader nav ul li {
-        margin-top: 1rem;
-        width: 100%;
-    }
-    #siteHeader nav ul li a {
-        padding: 1em;
+        background-color: #fff;
     }
     #bandcampPlayer {
         width: 100%;
@@ -318,7 +301,7 @@ hr {
         pointer-events: none;
         cursor: default;
     }
-    nav#social {
+    #social {
         padding: 0 0.25rem;
     }
 }
