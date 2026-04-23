@@ -19,7 +19,7 @@ GEM
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     jekyll (>= 4.3.3)
-      addressable (>= 2.9)
+      addressable (>=2.9.0)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
       i18n (~> 1.0)
