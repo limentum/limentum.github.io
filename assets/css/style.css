@@ -26,10 +26,6 @@ body.light-mode {
     body.light-mode #themeToggle a:active {
         background-color: var(--background-color);
     }
-    body.light-mode :is(#headerNav, #footerNav) a:is(:hover, :focus, :active) {
-        filter: invert(1);
-        background-color: var(--background-color);
-    }
 #sun {
     display: inline-block;
     vertical-align: middle;
@@ -116,7 +112,8 @@ main {
             :is(#siteHeader, #siteFooter) nav a:is(:hover, :focus, :active) {
                 text-decoration: underline;
                 background-color: var(--text-color);      
-                color: var(--background-color);
+            color: var(--background-color) !important;
+            border-color: var(--background-color);
             }
             #siteHeader nav a#currentPage {
                 border-color: var(--primary-color);
