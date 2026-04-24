@@ -5,11 +5,15 @@
     <meta name="description" content="The one-stop-shop for all of my works and active projects.">
     <meta name="keywords" content="Owen Farmer, Limentum, Portfolio, Projects, Music, Blog, Writing, Vestige">
     <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ 'assets/css/style.min.css' | relative_url }}">
     {%- if page.collection == 'posts' -%}
     <link rel="stylesheet" href="{{ 'assets/css/post.min.css' | relative_url }}">
     {% endif %}
     {%- if page.collection == 'vestige' or page.collection == 'obfuscation' -%}
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ 'assets/css/chapter.min.css' | relative_url }}">
     {%- endif -%}
     <script type="application/ld+json">
