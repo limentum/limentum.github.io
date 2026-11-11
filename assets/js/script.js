@@ -10,9 +10,9 @@ if ('serviceWorker' in navigator) {
 }
 
 window.onload = function() {
-	var logo = document.getElementById('logo');
-	var menuToggle = document.getElementById('menu-toggle');
-	var hamburgerMenu = document.querySelector('.hamburger-menu');
+	const logo = document.getElementById('logo');
+	const menuToggle = document.getElementById('menu-toggle');
+	const hamburgerMenu = document.querySelector('.hamburger-menu');
   
 	logo.addEventListener('contextmenu', function(e) { // Disable right-click on logo
 	  e.preventDefault(); // Prevent the default context menu
@@ -48,36 +48,26 @@ window.onload = function() {
 	// Listen for the toggle theme button
 	document.getElementById('themeToggle').addEventListener('click', function(event) {
 		event.preventDefault(); // Prevent the default action
-		var body = document.body;
-		var themeToggle = document.getElementById('themeToggle');
+		const body = document.body;
+		const themeToggle = document.getElementById('themeToggle');
 
-		if (body.classList.contains('dark-mode')) {
-			// If the body has the class 'dark-mode', switch to light mode
-			body.classList.remove('dark-mode');
+		if (body.classList.contains('light-mode')) {
+			// If the body has the class 'light-mode', switch to dark mode
+			body.classList.remove('light-mode');
+			localStorage.setItem('theme', 'dark'); // Store the user's preference
+		} else {
+			// If the body has the class 'dark-mode' or no class, switch to light mode
 			body.classList.add('light-mode');
 			localStorage.setItem('theme', 'light'); // Store the user's preference
-		} else {
-			// If the body has the class 'light-mode' or no class, switch to dark mode
-			body.classList.remove('light-mode');
-			body.classList.add('dark-mode');
-			localStorage.setItem('theme', 'dark'); // Store the user's preference
 		}
-
-		// Force re-render
-		themeToggle.classList.add('force-repaint');
-		setTimeout(() => {
-			themeToggle.classList.remove('force-repaint');
-		}, 0);
 	});
 };
 
 // When the page loads, apply the user's preference
 window.addEventListener('DOMContentLoaded', function() {
-    var theme = localStorage.getItem('theme'); // Get the stored preference
-    var body = document.body;
-    if (theme === 'light') {
-        body.classList.add('light-mode');
-    } else {
-        body.classList.add('dark-mode');
-    }
+	const theme = localStorage.getItem('theme'); // Get the stored preference
+	const body = document.body;
+	if (theme === 'light') {
+		body.classList.add('light-mode');
+	}
 });

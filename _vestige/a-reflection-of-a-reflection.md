@@ -29,55 +29,63 @@ I will try, I will try, I will try.
 <div class=center>
     {{ page.date | date: "%B %d, %Y" }}
 </div>
-I looked into the bathroom mirror, frowning. My hair was a combination of messy, and matted. I tend to be a restless sleeper, often ending up a disaster by the morning. I hop in one of the dorm showers, taking a moment to comb out the curls and knots. The warm water feels nice, comforting me after the bad dream I had last night. I knew the trip we were planning was stressing the hell out of me.
+Staring into the bathroom mirror, I looked over the messy and matted mess on my head. Too much of a restless sleeper, visual disaster by morning.
 
-I could hear the group chat with Shae and Liam buzzing from my phone. I didn't want to get the phone wet from grabbing it. They were probably trying to figure out when I'd be coming to pick them up, so we could leave. I make an attempt to hurry up the showering process, but it takes a while longer. After turning off the water, I quickly go to dry off and grab my phone to look at the messages.
+I hop in one of the shower stalls, taking a moment to comb out the curls and knots. The warm water feels nice, comforting me after such a restless sleep. This trip was clearly stressing the hell out of me.
 
-**Shae**: *you guys almost ready to go? at this rate we're gonna be like an hour behind schedule*
+My phone pings, probably Shae and Liam–don't want to get it wet from checking. Just them trying to figure out when I'd be coming to pick them up, so we could leave. *Guess I should hurry up.* After turning off the water, I dry myself with the towel and grab my phone.
 
-**Liam**: *I'm ready! Sounds like Jake slept in because he's not answering any of my texts or calls.*
+**Shae**: *you guys almost ready to go? at this rate we'll be an hour behind schedule*
 
-Shit, yeah, one missed call from Liam and a few more texts on top of that. Fuck. I started typing in a response.
+**Liam**: *I'm ready! Sounds like Jake slept in, not answering texts or calls.*
 
-**Jake**: *does it rly matter what time we leave? the cabin we booked just says to show up after 5*
+Shit, yeah, one missed call and a few more texts on top of that. Fuck. I started typing in a response.
 
-**Shae**: *i want to get there at a reasonable time so we can at least meet the guys tonight! alex works at like six in the morning tomorrow so i will kill you if we have to wait until tomorrow to see him*
+**Jake**: *does it rly matter what time we leave? the booking says to show up after 5*
 
-I could tell Liam was waiting for me to respond to Shae, in some attempt to avoid her barrage of aggressive texts.
+**Shae**: *i want to at least meet the guys tonight! alex works early tomorrow, ill kill you if we have to wait until tomorrow to see him*
 
-**Jake**: *i just finished showering! i packed last night so ill be like 10 mins tops*
+Liam was clearly dipping out of the convo now, waiting for me to respond.
 
-I set my phone back down as it kept buzzing, probably more texts from Shaela. I set the towel on the drying rack for a moment and take the outfit I brought from my dorm room, opting for some blue jeans with a white shirt and a black plaid button-up over it, leaving it unbuttoned.
+**Jake**: *just finished showering! packed last night so ill be like 10 mins tops*
 
-When I get back to my dorm room, I grab my white scarf and a light-brown jacket and put them in my bag since I knew I wouldn't need them until we got to Vestige. I probably could have spent more time trying to make myself look somewhat presentable, but I knew that if I took any longer, I would probably find the brakes on my car cut by Shae, so I just grabbed my suitcase and bag as fast as I could and headed out the door.
+No more time to text right now. I toss my towel on the drying rack a moment, opting for some blue jeans with a white shirt and a black button-up over it, leaving it unbuttoned.
 
-Liam lived a few doors down from my dorm, the hallways were pretty empty at this point because most of the students have left to visit family and such for the break. I approached his door and knocked on it somewhat-sporadically, tapping my foot against the floor while I waited for him to answer.
+I hurry back to my room, tossing a scarf and jacket in my bag–won't need 'em until Vestige. Could have spent more time trying to look presentable, but Shae would more drastic measures if I delay further... I grab my suitcase and bag, speeding out the room.
 
-"Finally! I thought you only woke up five minutes ago and was freaking out," he said, walking out into the hall and locking the door behind him.
+Liam stayed a few doors down from me. The hallways were pretty empty at this point for reading week.
 
-"Well, more like fifteen minutes ago, but you're right on the nose there," I said. Liam gasped dramatically, I only responded by rolling my eyes, and we started speed-walking to the car to go get Shae. 
+I knock on his door, a tad anxiously...
+
+"Finally! I thought you only woke up five minutes ago. Was freaking out," he said, stepping out into the hall and locking the door behind him.
+
+"Well more like fifteen minutes ago, but you're right on the nose there."
+
+Liam gasped dramatically. I only responded by rolling my eyes, as we started speed-walking to the car with our bags.
 <hr>
-"Are you heading here now?" The speakers in the car made the phone call sound as awful as ever.
+"Are you heading here now?" The car speaker call quality was abysmal at best...
 
-"Yeah, we're probably like an hour or so away at this point!"
+"Yeah, probably an hour or so away at this point!"
 
 "...Is Liam there with you?"
 
 I hesitate, "...Yeah, Shae too." I can see her look up towards the front of the car through the rear-view mirror when I say her name.
 
-"Well, let us know what days' work for you so you can visit us while you're here! We've been missing you so much since you last showed up!" I can see Liam glancing awkwardly at me, but I try to keep my eye on the road.
+"Well, let us know what days' work for you so you can visit us while you're here! We've been missing you so much since you last showed up!" Liam glances over at me, but I try to keep my eye on the road.
 
 "Will do! I should probably focus on driving, but I'll call you when we get to the cabin!"
 
 "Sounds good! Love you, sweetie!"
 
-"Love you too," I say, reaching for the hang-up button on the dashboard, mildly embarrassed from everyone overhearing me talking with my mom.
+"Love you too." I reach for the hang-up button on the dashboard, mildly embarrassed from everyone overhearing.
 
 "Does your mom... know about me?" Liam asks, doing his best to not make the question awkward. I see Shae's ears perk up a bit from the question, but she seems to choose not to chime in.
 
-"Yeah... Even if they weren't like... accepting," I cough, "about it back in high school, they still seem somewhat interested in my life from time to time, so that's good I guess."
+"Yeah... Even if they weren't like, accepting," I cough, "about it back in high school... they still seem somewhat interested in my life from time to time. So that's good I guess."
 
-Liam nods his head, affirmatively, "I told them a few weeks ago. They said how they could 'tell that I'm acting different' so I didn't really have a choice,"
+Liam nods his head, affirmatively.
+
+"I told them a few weeks ago. They said how they could 'tell  I'm acting different' so I didn't really have a choice,"
 
 Shae looked up from her phone, and leaned forward towards the front of the car, looking towards Liam, "After how Jake ended up after graduation, they'd always be asking about that shit, sort of turned into a couple of pricks after that." I could tell Liam looked a little shocked from her aggressive word choice, or maybe that's just how he reacted to our descriptions of my parents.
 
