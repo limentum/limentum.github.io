@@ -19,11 +19,11 @@ body.light-mode {
     body.light-mode hr {
         border-color: var(--tertiary-color);
     }
-    body.light-mode #themeToggle a,
-    body.light-mode #headerNav #themeToggle a {
+    body.light-mode #themeToggle button,
+    body.light-mode #headerNav #themeToggle button {
         filter: none;
     }
-    body.light-mode #themeToggle a:active {
+    body.light-mode #themeToggle button:active {
         background-color: var(--background-color);
     }
 #sun {
@@ -55,21 +55,23 @@ main {
 #themeToggle.force-repaint {
     display: inline-block; /* Any property that forces a re-render */
 }
-    #themeToggle a {
+    #themeToggle button {
         display: inline-block;
         padding: 0.5rem 1rem; /* Adjust padding to match other links */
         border: 2px solid var(--text-color); /* Add border to match other links */
         color: var(--text-color); /* Set text color */
+        background: transparent;
         text-decoration: none; /* Remove underline */
         transition: color 0.25s ease, background-color 0.25s ease; /* Add transition for hover effect */
+        cursor: pointer;
     }
-    #themeToggle a:is(:hover, :focus, :active) {
+    #themeToggle button:is(:hover, :focus, :active) {
         background-color: var(--text-color); /* Match hover background color */
         color: var(--background-color); /* Match hover text color */
         text-decoration: underline; /* Match hover underline */
         filter: none; /* Remove any filters */
     }
-#headerNav #themeToggle a {
+#headerNav #themeToggle button {
     border: unset;
     padding: 0;
     filter: invert(1);
